@@ -2,8 +2,8 @@
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sneha Devendrappa | Performance Marketing & eCommerce Growth Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Sneha Devendrappa | Performance Marketing, eCommerce & Brand Growth Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,126 +32,167 @@
   </script>
   <style>
     .glass-nav {
-      background: rgba(255, 255, 255, 0.92);
+      background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(16px);
     }
     .metric-gradient {
       background: linear-gradient(135deg, #18181b 0%, #27272a 100%);
     }
     .modal-backdrop {
-      background-color: rgba(15, 23, 42, 0.75);
-      backdrop-filter: blur(6px);
+      background-color: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(8px);
+    }
+    /* Custom mobile touch optimizations */
+    @media (max-width: 640px) {
+      .mobile-card-padding {
+        padding: 1.25rem !important;
+      }
     }
   </style>
 </head>
-<body class="bg-[#fcfbf9] text-zinc-900 font-sans antialiased selection:bg-brand-600 selection:text-white">
+<body class="bg-[#faf9f6] text-zinc-900 font-sans antialiased selection:bg-brand-600 selection:text-white">
 
   <!-- Top Announcement Bar -->
-  <div class="bg-zinc-950 text-zinc-300 text-xs py-2 px-4 text-center font-medium border-b border-zinc-800">
-    <span>📍 Based in Dubai, UAE &bull; Available for Growth & Performance Marketing Roles &bull; </span>
-    <a href="mailto:snehadev429@gmail.com" class="text-amber-400 font-bold hover:underline ml-1">Hire Me &rarr;</a>
+  <div class="bg-zinc-950 text-zinc-300 text-[11px] sm:text-xs py-2 px-4 text-center font-medium border-b border-zinc-800">
+    <span>📍 Dubai, UAE &bull; Performance Marketing & eCommerce Specialist &bull; </span>
+    <a href="mailto:snehadev429@gmail.com" class="text-amber-400 font-bold hover:underline ml-1">Available for Hire &rarr;</a>
   </div>
 
-  <!-- Sticky Header -->
-  <header class="sticky top-0 z-40 glass-nav border-b border-zinc-200/80 transition-all">
-    <div class="max-w-7xl mx-auto px-6 py-3.5 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-3 group">
-        <div class="w-9 h-9 rounded-xl bg-zinc-900 text-white flex items-center justify-center font-black text-sm tracking-tight shadow-md group-hover:bg-brand-600 transition">
-          SD
-        </div>
-        <div>
-          <span class="font-extrabold text-base tracking-tight text-zinc-950 block leading-tight">Sneha Devendrappa</span>
-          <span class="text-[11px] font-semibold text-zinc-500 block">Performance Marketing & eCommerce</span>
+  <!-- Sticky Header with Mobile Hamburger Menu -->
+  <header class="sticky top-0 z-40 glass-nav border-b border-zinc-200/90 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2.5 sm:gap-3 group">
+        <img src="assets/profile.jpg" alt="Sneha Devendrappa" class="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-cover border-2 border-brand-600 shadow-sm shrink-0" />
+        <div class="min-w-0">
+          <span class="font-extrabold text-sm sm:text-base tracking-tight text-zinc-950 block leading-tight truncate">Sneha Devendrappa</span>
+          <span class="text-[10px] sm:text-[11px] font-semibold text-zinc-500 block truncate">Performance Marketing & eCommerce</span>
         </div>
       </a>
 
-      <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-zinc-600">
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-6 xl:gap-7 text-sm font-semibold text-zinc-600">
         <a href="#about" class="hover:text-brand-600 transition">About</a>
-        <a href="#impact" class="hover:text-brand-600 transition">Proven Impact</a>
+        <a href="#brands" class="hover:text-brand-600 transition">Brands</a>
+        <a href="#impact" class="hover:text-brand-600 transition">Highlights</a>
         <a href="#case-studies" class="hover:text-brand-600 transition">Case Studies</a>
         <a href="#experience" class="hover:text-brand-600 transition">Experience</a>
-        <a href="#skills" class="hover:text-brand-600 transition">Capabilities</a>
         <a href="#contact" class="hover:text-brand-600 transition">Contact</a>
       </nav>
 
-      <div class="flex items-center gap-3">
-        <a href="Sneha_Devendrappa_CV.pdf" download="Sneha_Devendrappa_CV.pdf" class="px-4 py-2 text-xs font-bold text-zinc-900 bg-white hover:bg-zinc-100 border border-zinc-300 rounded-xl transition flex items-center gap-1.5 shadow-sm">
-          <i data-lucide="download" class="w-3.5 h-3.5 text-brand-600"></i> Download CV (PDF)
+      <!-- Header Actions -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="Sneha_Devendrappa_CV.pdf" download="Sneha_Devendrappa_CV.pdf" class="px-3 sm:px-4 py-2 text-[11px] sm:text-xs font-bold text-zinc-900 bg-white hover:bg-zinc-100 border border-zinc-300 rounded-xl transition flex items-center gap-1.5 shadow-sm shrink-0">
+          <i data-lucide="download" class="w-3.5 h-3.5 text-brand-600"></i>
+          <span class="hidden sm:inline">Download CV</span>
+          <span class="sm:hidden">CV (PDF)</span>
         </a>
-        <a href="mailto:snehadev429@gmail.com" class="hidden sm:inline-flex px-4 py-2 text-xs font-bold text-white bg-brand-600 hover:bg-brand-700 rounded-xl transition shadow-md shadow-brand-600/20 items-center gap-1.5">
+        <a href="mailto:snehadev429@gmail.com" class="hidden md:inline-flex px-4 py-2 text-xs font-bold text-white bg-brand-600 hover:bg-brand-700 rounded-xl transition shadow-md shadow-brand-600/20 items-center gap-1.5 shrink-0">
           <i data-lucide="send" class="w-3.5 h-3.5"></i> Get in Touch
         </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-xl text-zinc-700 hover:bg-zinc-100 border border-zinc-200 focus:outline-none" aria-label="Toggle Navigation">
+          <i data-lucide="menu" id="menu-icon-open" class="w-5 h-5 block"></i>
+          <i data-lucide="x" id="menu-icon-close" class="w-5 h-5 hidden"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-zinc-200 bg-white/98 px-6 py-4 space-y-3 shadow-xl transition-all">
+      <nav class="flex flex-col space-y-2.5 text-sm font-bold text-zinc-800">
+        <a href="#about" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-zinc-100 hover:text-brand-600 transition flex items-center gap-2">
+          <i data-lucide="user" class="w-4 h-4 text-zinc-400"></i> About
+        </a>
+        <a href="#brands" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-zinc-100 hover:text-brand-600 transition flex items-center gap-2">
+          <i data-lucide="building-2" class="w-4 h-4 text-zinc-400"></i> Brands & Accounts
+        </a>
+        <a href="#impact" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-zinc-100 hover:text-brand-600 transition flex items-center gap-2">
+          <i data-lucide="zap" class="w-4 h-4 text-zinc-400"></i> Core Highlights
+        </a>
+        <a href="#case-studies" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-zinc-100 hover:text-brand-600 transition flex items-center gap-2">
+          <i data-lucide="folder-kanban" class="w-4 h-4 text-zinc-400"></i> Case Studies
+        </a>
+        <a href="#experience" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-zinc-100 hover:text-brand-600 transition flex items-center gap-2">
+          <i data-lucide="briefcase" class="w-4 h-4 text-zinc-400"></i> Work Experience
+        </a>
+        <a href="#contact" onclick="toggleMobileMenu()" class="py-2 px-3 rounded-lg hover:bg-zinc-100 hover:text-brand-600 transition flex items-center gap-2">
+          <i data-lucide="mail" class="w-4 h-4 text-zinc-400"></i> Contact & Hire
+        </a>
+      </nav>
+      <div class="pt-3 border-t border-zinc-100 flex items-center justify-between text-xs font-semibold text-zinc-600">
+        <span>Dubai, UAE</span>
+        <a href="mailto:snehadev429@gmail.com" class="text-brand-600 font-bold">snehadev429@gmail.com</a>
       </div>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section id="about" class="pt-12 pb-20 md:pt-20 md:pb-24 max-w-7xl mx-auto px-6">
-    <div class="grid lg:grid-cols-12 gap-12 items-center">
+  <!-- Hero Section (Optimized for Mobile & Desktop) -->
+  <section id="about" class="pt-8 pb-12 sm:pt-14 sm:pb-16 md:pt-20 md:pb-20 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
       
-      <div class="lg:col-span-8 space-y-6">
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-50 border border-brand-100 text-brand-700 text-xs font-bold tracking-wide uppercase">
-          <span class="w-2 h-2 rounded-full bg-brand-600 animate-pulse"></span> Open for Opportunities in Dubai & Global Remote
+      <!-- Left Column: Hero Text & CTAs -->
+      <div class="lg:col-span-8 space-y-5 sm:space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-brand-50 border border-brand-100 text-brand-700 text-[11px] sm:text-xs font-bold tracking-wide uppercase">
+          <span class="w-2 h-2 rounded-full bg-brand-600 animate-pulse"></span> Available for Roles in Dubai & Remote
         </div>
         
-        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-zinc-950 leading-[1.12]">
-          Scaling Brands with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-amber-600">High-ROAS Media Buying</span> & High-Converting eCommerce.
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-zinc-950 leading-[1.14]">
+          Driving Revenue & Scalable Growth Through <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-amber-600">Full-Funnel Performance Marketing</span>.
         </h1>
         
-        <p class="text-base md:text-lg text-zinc-600 max-w-2xl leading-relaxed">
-          Performance Marketing & eCommerce Growth Specialist with proven experience managing <strong class="text-zinc-900">+ in international ad spend</strong>, scaling D2C brands up to <strong class="text-brand-600 font-bold">10.4X ROAS</strong>, driving <strong>10,600+ conversions</strong> at <strong>12.05% CVR</strong>, and executing end-to-end Shopify, retention, and paid search/social growth.
+        <p class="text-sm sm:text-base md:text-lg text-zinc-600 max-w-2xl leading-relaxed">
+          Performance Marketing & eCommerce Growth Specialist running full-funnel <strong class="text-zinc-900">Google & Meta Ads</strong> across luxury D2C, healthcare, and B2B SaaS brands. Skilled in brand visual redesigns, <strong class="text-zinc-900">Shopify architecture</strong>, modern search <strong class="text-zinc-900">(SEO, AEO, GEO)</strong>, and automated <strong class="text-zinc-900">WhatsApp & email retention funnels</strong>.
         </p>
 
-        <div class="flex flex-wrap items-center gap-4 pt-2">
-          <a href="#case-studies" class="px-6 py-3.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-white font-bold text-sm transition flex items-center gap-2 shadow-lg shadow-zinc-900/15">
-            <i data-lucide="folder-kanban" class="w-4 h-4"></i> Explore 5 Case Studies
+        <!-- Touch-Friendly CTAs -->
+        <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 sm:gap-4 pt-2">
+          <a href="#case-studies" class="px-6 py-3.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-white font-bold text-sm transition flex items-center justify-center gap-2 shadow-lg shadow-zinc-900/15">
+            <i data-lucide="folder-kanban" class="w-4 h-4"></i> Explore Case Studies
           </a>
-          <a href="Sneha_Devendrappa_CV.pdf" download="Sneha_Devendrappa_CV.pdf" class="px-6 py-3.5 rounded-xl border border-zinc-300 hover:border-zinc-400 bg-white text-zinc-800 font-bold text-sm transition flex items-center gap-2 shadow-sm">
+          <a href="Sneha_Devendrappa_CV.pdf" download="Sneha_Devendrappa_CV.pdf" class="px-6 py-3.5 rounded-xl border border-zinc-300 hover:border-zinc-400 bg-white text-zinc-800 font-bold text-sm transition flex items-center justify-center gap-2 shadow-sm">
             <i data-lucide="file-text" class="w-4 h-4 text-brand-600"></i> Download Resume (PDF)
           </a>
-          <a href="https://linkedin.com/in/sneha-d-39b4ab1b3" target="_blank" class="px-5 py-3.5 rounded-xl border border-zinc-200 bg-white text-zinc-600 hover:text-blue-600 font-bold text-sm transition flex items-center gap-2">
-            <i data-lucide="linkedin" class="w-4 h-4 text-blue-600"></i> LinkedIn
+          <a href="https://linkedin.com/in/sneha-d-39b4ab1b3" target="_blank" class="px-5 py-3.5 rounded-xl border border-zinc-200 bg-white hover:bg-zinc-50 text-zinc-800 font-bold text-sm transition flex items-center justify-center gap-2.5 shadow-sm">
+            <svg class="w-4 h-4 fill-[#0A66C2]" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span>LinkedIn</span>
           </a>
         </div>
       </div>
 
-      <!-- Quick Profile Card -->
-      <div class="lg:col-span-4">
-        <div class="bg-white rounded-3xl p-7 shadow-xl border border-zinc-200/80 space-y-6 relative overflow-hidden">
-          <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-100 to-amber-100 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none"></div>
+      <!-- Right Column: Profile Photo & Card -->
+      <div class="lg:col-span-4 mt-4 lg:mt-0">
+        <div class="bg-white rounded-3xl p-5 sm:p-6 shadow-xl border border-zinc-200/80 space-y-4 sm:space-y-5 relative overflow-hidden text-center max-w-md mx-auto">
+          <div class="relative w-36 h-36 sm:w-40 sm:h-40 mx-auto">
+            <img src="assets/profile.jpg" alt="Sneha Devendrappa" class="w-full h-full object-cover rounded-full shadow-lg border-4 border-white ring-4 ring-brand-100" />
+            <div class="absolute bottom-1 right-2.5 sm:right-3 w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-emerald-500 border-2 border-white shadow-sm" title="Available for hire"></div>
+          </div>
           
-          <div class="flex items-center gap-4 relative">
-            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-zinc-900 to-zinc-800 text-white flex items-center justify-center font-black text-2xl shadow-lg border-2 border-zinc-100">
-              SD
+          <div>
+            <h3 class="font-extrabold text-zinc-950 text-lg sm:text-xl">Sneha Devendrappa</h3>
+            <p class="text-xs font-semibold text-brand-600 mt-0.5">Performance Marketing & eCommerce Specialist</p>
+            <p class="text-xs text-zinc-500 mt-1">📍 Dubai, United Arab Emirates</p>
+          </div>
+
+          <div class="space-y-2 text-xs text-zinc-600 pt-3 border-t border-zinc-100 text-left">
+            <div class="flex justify-between items-center py-0.5">
+              <span class="font-semibold text-zinc-800">Academic Degree</span>
+              <span class="text-right font-medium">MSc Int'l Business (Heriot-Watt Dubai)</span>
             </div>
-            <div>
-              <h3 class="font-extrabold text-zinc-950 text-lg">Sneha Devendrappa</h3>
-              <p class="text-xs font-semibold text-brand-600">Performance & eCommerce Specialist</p>
-              <p class="text-xs text-zinc-500 mt-0.5">Dubai, United Arab Emirates</p>
+            <div class="flex justify-between items-center py-0.5">
+              <span class="font-semibold text-zinc-800">Paid Media</span>
+              <span class="text-right font-medium">Google Ads, Meta Ads, LinkedIn</span>
+            </div>
+            <div class="flex justify-between items-center py-0.5">
+              <span class="font-semibold text-zinc-800">eCommerce Stack</span>
+              <span class="text-right font-medium">Shopify, Email, WhatsApp API</span>
             </div>
           </div>
 
-          <div class="space-y-3 text-xs text-zinc-600 pt-2 border-t border-zinc-100">
-            <div class="flex justify-between items-center py-1">
-              <span class="font-semibold text-zinc-800">Current Academic</span>
-              <span class="text-right font-medium">MSc Int'l Business (Heriot-Watt)</span>
-            </div>
-            <div class="flex justify-between items-center py-1">
-              <span class="font-semibold text-zinc-800">Core Platforms</span>
-              <span class="text-right font-medium">Google, Meta, Shopify, Amazon</span>
-            </div>
-            <div class="flex justify-between items-center py-1">
-              <span class="font-semibold text-zinc-800">Analytics & BI</span>
-              <span class="text-right font-medium">GA4, GTM, Looker Studio, CallRail</span>
-            </div>
-            <div class="flex justify-between items-center py-1">
-              <span class="font-semibold text-zinc-800">Retention Tools</span>
-              <span class="text-right font-medium">Klaviyo, Interakt WhatsApp API</span>
-            </div>
-          </div>
-
-          <div class="p-4 rounded-2xl bg-zinc-900 text-white space-y-1">
-            <div class="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Fast Contact</div>
+          <div class="p-3 sm:p-3.5 rounded-2xl bg-zinc-900 text-white text-left space-y-1">
+            <div class="text-[10px] font-bold text-amber-400 uppercase tracking-wider">Direct Inquiries</div>
             <div class="text-xs font-medium text-zinc-300">snehadev429@gmail.com</div>
             <div class="text-xs font-medium text-zinc-300">+971 50 815 3779</div>
           </div>
@@ -161,553 +202,774 @@
     </div>
   </section>
 
-  <!-- Live Verified Proof & Key Highlights -->
-  <section id="impact" class="py-14 bg-zinc-950 text-white relative">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="text-xs font-extrabold tracking-widest text-amber-400 uppercase">Verified Live Proof</span>
-        <h2 class="text-3xl font-black text-white mt-1">Aggregated Campaign Impact</h2>
+  <!-- Brands Showcase Section with Official Logos (Responsive Grid) -->
+  <section id="brands" class="py-12 sm:py-14 bg-white border-y border-zinc-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-xl mx-auto mb-8 sm:mb-10">
+        <span class="text-[11px] sm:text-xs font-extrabold tracking-widest text-brand-600 uppercase">Track Record Across Global Industries</span>
+        <h3 class="text-xl sm:text-2xl font-black text-zinc-950 mt-1">Brands & Accounts Managed</h3>
+        <p class="text-xs text-zinc-500 mt-1">Luxury D2C, Healthcare, Automotive & B2B SaaS</p>
       </div>
-
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-        
-        <div class="metric-gradient p-6 rounded-2xl border border-zinc-800 space-y-2">
-          <div class="text-3xl sm:text-4xl lg:text-5xl font-black text-amber-400">10.4X</div>
-          <div class="text-sm font-bold text-white">Peak D2C ROAS</div>
-          <p class="text-xs text-zinc-400">₹4.91L revenue from ₹47K spend (Réia Diamonds)</p>
-        </div>
-
-        <div class="metric-gradient p-6 rounded-2xl border border-zinc-800 space-y-2">
-          <div class="text-3xl sm:text-4xl lg:text-5xl font-black text-amber-400">+</div>
-          <div class="text-sm font-bold text-white">Ad Spend Managed</div>
-          <p class="text-xs text-zinc-400">Across Google Search, Meta, LinkedIn & Amazon PPC</p>
-        </div>
-
-        <div class="metric-gradient p-6 rounded-2xl border border-zinc-800 space-y-2">
-          <div class="text-3xl sm:text-4xl lg:text-5xl font-black text-amber-400">10,646</div>
-          <div class="text-sm font-bold text-white">Patient Bookings</div>
-          <p class="text-xs text-zinc-400">12.05% conversion rate across 4 US states</p>
-        </div>
-
-        <div class="metric-gradient p-6 rounded-2xl border border-zinc-800 space-y-2">
-          <div class="text-3xl sm:text-4xl lg:text-5xl font-black text-amber-400">+335%</div>
-          <div class="text-sm font-bold text-white">MoM Traffic Surge</div>
-          <p class="text-xs text-zinc-400">15.2K+ monthly sessions achieved on Shopify</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Interactive Case Studies Section -->
-  <section id="case-studies" class="py-20 max-w-7xl mx-auto px-6">
-    <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
-      <div>
-        <span class="text-xs font-extrabold tracking-widest text-brand-600 uppercase">Interactive Case Studies</span>
-        <h2 class="text-3xl sm:text-4xl font-black text-zinc-950 mt-1">Deep Dives into Real Results</h2>
-        <p class="text-sm text-zinc-600 mt-2">Click any case study card to view the full operational breakdown & metrics.</p>
-      </div>
-
-      <div class="flex flex-wrap gap-2">
-        <button onclick="filterProjects('all')" class="filter-btn active px-4 py-2 rounded-xl text-xs font-bold bg-zinc-900 text-white transition shadow-sm">All (5)</button>
-        <button onclick="filterProjects('ecommerce')" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-white text-zinc-700 hover:bg-zinc-100 border border-zinc-200 transition">eCommerce & D2C</button>
-        <button onclick="filterProjects('performance')" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-white text-zinc-700 hover:bg-zinc-100 border border-zinc-200 transition">Paid Media & ROAS</button>
-        <button onclick="filterProjects('analytics')" class="filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-white text-zinc-700 hover:bg-zinc-100 border border-zinc-200 transition">Analytics & SaaS</button>
-      </div>
-    </div>
-
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
-
-      <!-- Case Study 1: Happy Earth Organic -->
-      <div class="project-card group bg-white rounded-3xl border border-zinc-200/90 hover:border-brand-600 overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col cursor-pointer" data-category="ecommerce" onclick="openModal('modal-heo')">
-        <div class="h-48 bg-gradient-to-br from-emerald-800 to-teal-950 p-6 flex flex-col justify-between text-white relative">
-          <div class="flex items-center justify-between">
-            <span class="px-3 py-1 rounded-lg bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase">D2C E-Commerce</span>
-            <span class="text-xs font-medium text-emerald-200">Jun 2026 – Sep 2026</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-black leading-tight text-white group-hover:text-amber-300 transition">Happy Earth Organic</h3>
-            <p class="text-xs text-emerald-100 mt-1">Full Website Revamp, Shopify & WhatsApp API</p>
-          </div>
-        </div>
-        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-          <div class="space-y-3">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Led the complete redesign and structural overhaul of the Shopify store, generated all conversion-oriented copy and banners, deployed Interakt WhatsApp Business API, and structured Klaviyo email automations.
-            </p>
-            <div class="flex flex-wrap gap-1.5 pt-1">
-              <span class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 text-[11px] font-bold">Shopify Store Revamp</span>
-              <span class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 text-[11px] font-bold">WhatsApp API</span>
-              <span class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 text-[11px] font-bold">Klaviyo Flows</span>
-              <span class="px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-700 text-[11px] font-semibold">Amazon PPC</span>
-            </div>
-          </div>
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <span class="text-xs font-extrabold text-emerald-700">Dubai, UAE</span>
-            <span class="text-xs font-bold text-brand-600 group-hover:translate-x-1 transition flex items-center gap-1">
-              View Case Study <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Case Study 2: Réia Diamonds -->
-      <div class="project-card group bg-white rounded-3xl border border-zinc-200/90 hover:border-brand-600 overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col cursor-pointer" data-category="ecommerce performance" onclick="openModal('modal-reia')">
-        <div class="h-48 bg-gradient-to-br from-amber-900 to-rose-950 p-6 flex flex-col justify-between text-white relative">
-          <div class="flex items-center justify-between">
-            <span class="px-3 py-1 rounded-lg bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase">Luxury D2C</span>
-            <span class="text-xs font-bold text-amber-300">10.4X ROAS Proof</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-black leading-tight text-white group-hover:text-amber-300 transition">Réia Diamonds</h3>
-            <p class="text-xs text-amber-100 mt-1">Multi-Channel Growth Engine & GTM Tracking</p>
-          </div>
-        </div>
-        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-          <div class="space-y-3">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Delivered ₹4.91L revenue on ₹47K ad spend (10.4X ROAS), surged Shopify traffic by +335% MoM, built full GTM tracking architecture (6 tags), and managed 62 Meta campaigns reaching 4.01M users.
-            </p>
-            <div class="flex flex-wrap gap-1.5 pt-1">
-              <span class="px-2 py-0.5 rounded-md bg-amber-50 text-amber-900 text-[11px] font-bold">10.4X ROAS</span>
-              <span class="px-2 py-0.5 rounded-md bg-amber-50 text-amber-900 text-[11px] font-bold">9.42M Impressions</span>
-              <span class="px-2 py-0.5 rounded-md bg-amber-50 text-amber-900 text-[11px] font-bold">+335% Sessions</span>
-              <span class="px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-700 text-[11px] font-semibold">GTM 6 Tags</span>
-            </div>
-          </div>
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <span class="text-xs font-extrabold text-amber-800">₹4.91L Generated</span>
-            <span class="text-xs font-bold text-brand-600 group-hover:translate-x-1 transition flex items-center gap-1">
-              View Case Study <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Case Study 3: Family Care Center -->
-      <div class="project-card group bg-white rounded-3xl border border-zinc-200/90 hover:border-brand-600 overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col cursor-pointer" data-category="performance analytics" onclick="openModal('modal-fcc')">
-        <div class="h-48 bg-gradient-to-br from-blue-950 to-indigo-950 p-6 flex flex-col justify-between text-white relative">
-          <div class="flex items-center justify-between">
-            <span class="px-3 py-1 rounded-lg bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase">US Healthcare</span>
-            <span class="text-xs font-bold text-blue-300"> Managed</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-black leading-tight text-white group-hover:text-blue-300 transition">Family Care Center</h3>
-            <p class="text-xs text-blue-100 mt-1">120 Google Ads Campaigns & Call Tracking</p>
-          </div>
-        </div>
-        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-          <div class="space-y-3">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Managed 120 Google Ads campaigns across 4 US states generating 10,646 patient conversions at 12.05% CVR and .48 CPA. Engineered Looker Studio BI reports and CallRail tracking.
-            </p>
-            <div class="flex flex-wrap gap-1.5 pt-1">
-              <span class="px-2 py-0.5 rounded-md bg-blue-50 text-blue-800 text-[11px] font-bold">12.05% CVR</span>
-              <span class="px-2 py-0.5 rounded-md bg-blue-50 text-blue-800 text-[11px] font-bold">10,646 Bookings</span>
-              <span class="px-2 py-0.5 rounded-md bg-blue-50 text-blue-800 text-[11px] font-bold">CallRail BI</span>
-              <span class="px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-700 text-[11px] font-semibold">28.4K SEO Visits</span>
-            </div>
-          </div>
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <span class="text-xs font-extrabold text-blue-800">120 Campaigns</span>
-            <span class="text-xs font-bold text-brand-600 group-hover:translate-x-1 transition flex items-center gap-1">
-              View Case Study <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Case Study 4: Scuderia Car Parts -->
-      <div class="project-card group bg-white rounded-3xl border border-zinc-200/90 hover:border-brand-600 overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col cursor-pointer" data-category="ecommerce performance" onclick="openModal('modal-scp')">
-        <div class="h-48 bg-gradient-to-br from-zinc-900 to-zinc-950 p-6 flex flex-col justify-between text-white relative">
-          <div class="flex items-center justify-between">
-            <span class="px-3 py-1 rounded-lg bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase">Luxury Automotive</span>
-            <span class="text-xs font-bold text-zinc-300">£156K Value</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-black leading-tight text-white group-hover:text-amber-400 transition">Scuderia Car Parts</h3>
-            <p class="text-xs text-zinc-300 mt-1">High-Ticket Supercar Search & POAS Engine</p>
-          </div>
-        </div>
-        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-          <div class="space-y-3">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Optimized £64.8K spend generating £156.3K conversion value and 2,754 conversions across Ferrari, Maserati, Bentley, and Lamborghini catalogs. Brand campaigns hit 55.64% CTR.
-            </p>
-            <div class="flex flex-wrap gap-1.5 pt-1">
-              <span class="px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-900 text-[11px] font-bold">£156K Revenue</span>
-              <span class="px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-900 text-[11px] font-bold">55.6% Brand CTR</span>
-              <span class="px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-900 text-[11px] font-bold">2,754 Orders</span>
-            </div>
-          </div>
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <span class="text-xs font-extrabold text-zinc-900">UK & Worldwide</span>
-            <span class="text-xs font-bold text-brand-600 group-hover:translate-x-1 transition flex items-center gap-1">
-              View Case Study <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Case Study 5: Sunoh.AI & Healow Genie -->
-      <div class="project-card group bg-white rounded-3xl border border-zinc-200/90 hover:border-brand-600 overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col cursor-pointer" data-category="analytics" onclick="openModal('modal-saas')">
-        <div class="h-48 bg-gradient-to-br from-purple-950 to-slate-950 p-6 flex flex-col justify-between text-white relative">
-          <div class="flex items-center justify-between">
-            <span class="px-3 py-1 rounded-lg bg-white/20 backdrop-blur-md text-[11px] font-bold tracking-wider uppercase">B2B SaaS</span>
-            <span class="text-xs font-bold text-purple-300">39K Active Users</span>
-          </div>
-          <div>
-            <h3 class="text-xl font-black leading-tight text-white group-hover:text-purple-300 transition">Sunoh.AI & Healow Genie</h3>
-            <p class="text-xs text-purple-200 mt-1">Growth Analytics & GA4/GTM Event Architecture</p>
-          </div>
-        </div>
-        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-          <div class="space-y-3">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Monitored 39K active users, detected +554% anomaly spike, and built comprehensive GA4 multi-goal event tracking logging 13K+ key events (+18.4% growth).
-            </p>
-            <div class="flex flex-wrap gap-1.5 pt-1">
-              <span class="px-2 py-0.5 rounded-md bg-purple-50 text-purple-900 text-[11px] font-bold">39K Users</span>
-              <span class="px-2 py-0.5 rounded-md bg-purple-50 text-purple-900 text-[11px] font-bold">+554% Anomaly Spike</span>
-              <span class="px-2 py-0.5 rounded-md bg-purple-50 text-purple-900 text-[11px] font-bold">GA4 Event Schema</span>
-            </div>
-          </div>
-          <div class="pt-4 border-t border-zinc-100 flex items-center justify-between">
-            <span class="text-xs font-extrabold text-purple-950">AI Health-Tech</span>
-            <span class="text-xs font-bold text-brand-600 group-hover:translate-x-1 transition flex items-center gap-1">
-              View Case Study <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Work Experience Timeline -->
-  <section id="experience" class="py-16 bg-white border-y border-zinc-200">
-    <div class="max-w-5xl mx-auto px-6">
-      <div class="text-center max-w-2xl mx-auto mb-12">
-        <span class="text-xs font-extrabold tracking-widest text-brand-600 uppercase">Career History</span>
-        <h2 class="text-3xl font-black text-zinc-950 mt-1">Professional Experience</h2>
-      </div>
-
-      <div class="space-y-8 relative before:absolute before:inset-0 before:left-3.5 md:before:left-1/2 before:-translate-x-1/2 before:w-0.5 before:bg-zinc-200">
-        
-        <!-- Experience 1 -->
-        <div class="relative flex flex-col md:flex-row items-start gap-6 group">
-          <div class="md:w-1/2 md:text-right md:pr-8">
-            <span class="text-xs font-bold text-brand-600">Jun 2026 – Sep 2026</span>
-            <h3 class="text-base font-extrabold text-zinc-950">Performance Marketing Executive – eCommerce</h3>
-            <p class="text-xs font-bold text-zinc-600">Happy Earth Organic &bull; Dubai, UAE</p>
-          </div>
-          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-brand-600 border-4 border-white shadow-md z-10"></div>
-          <div class="pl-8 md:pl-8 md:w-1/2">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Directed complete eCommerce store revamp, UI/UX structure, and promotional banners. Managed full Shopify catalog, Interakt WhatsApp Business API broadcasts, Klaviyo email sequences, and Amazon PPC.
-            </p>
-          </div>
-        </div>
-
-        <!-- Experience 2 -->
-        <div class="relative flex flex-col md:flex-row items-start gap-6 group">
-          <div class="md:w-1/2 md:text-right md:pr-8">
-            <span class="text-xs font-bold text-brand-600">Jan 2025 – Jun 2025</span>
-            <h3 class="text-base font-extrabold text-zinc-950">Marketing Strategist</h3>
-            <p class="text-xs font-bold text-zinc-600">Réia Diamonds &bull; Bangalore, India</p>
-          </div>
-          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-zinc-900 border-4 border-white shadow-md z-10"></div>
-          <div class="pl-8 md:pl-8 md:w-1/2">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Delivered 10.4X ROAS (₹4.91L revenue on ₹47K spend). Scaled website traffic by +335% MoM, engineered 6-tag GTM tracking architecture, and managed 62 Meta campaigns generating 9.42M impressions.
-            </p>
-          </div>
-        </div>
-
-        <!-- Experience 3 -->
-        <div class="relative flex flex-col md:flex-row items-start gap-6 group">
-          <div class="md:w-1/2 md:text-right md:pr-8">
-            <span class="text-xs font-bold text-brand-600">Sep 2024 – Jan 2025</span>
-            <h3 class="text-base font-extrabold text-zinc-950">Digital Marketing Executive</h3>
-            <p class="text-xs font-bold text-zinc-600">Tealbox Digital &bull; Indore, India</p>
-          </div>
-          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-zinc-900 border-4 border-white shadow-md z-10"></div>
-          <div class="pl-8 md:pl-8 md:w-1/2">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Managed  spend across 120 Google Ads campaigns (Family Care Center, 10,646 conversions, 12.05% CVR), £64.8K spend for Scuderia Car Parts (£156K revenue, 55.6% CTR), and analytics for Sunoh.AI (39K users).
-            </p>
-          </div>
-        </div>
-
-        <!-- Experience 4 -->
-        <div class="relative flex flex-col md:flex-row items-start gap-6 group">
-          <div class="md:w-1/2 md:text-right md:pr-8">
-            <span class="text-xs font-bold text-brand-600">Jan 2023 – Sep 2024</span>
-            <h3 class="text-base font-extrabold text-zinc-950">Content & Digital Strategy Roles</h3>
-            <p class="text-xs font-bold text-zinc-600">Learn Practically & Anavrin Films &bull; Bengaluru, India</p>
-          </div>
-          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-zinc-400 border-4 border-white shadow-md z-10"></div>
-          <div class="pl-8 md:pl-8 md:w-1/2">
-            <p class="text-xs text-zinc-600 leading-relaxed">
-              Authored SEO scripts growing YouTube channel to 10K+ views/video with +25% retention and +15% subscriber boost. Managed digital marketing content campaigns.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills & Technical Matrix -->
-  <section id="skills" class="py-16 max-w-7xl mx-auto px-6">
-    <div class="text-center max-w-2xl mx-auto mb-12">
-      <span class="text-xs font-extrabold tracking-widest text-brand-600 uppercase">Capabilities</span>
-      <h2 class="text-3xl font-black text-zinc-950 mt-1">Core Competency Matrix</h2>
-    </div>
-
-    <div class="grid md:grid-cols-4 gap-6">
       
-      <div class="bg-white p-6 rounded-3xl border border-zinc-200/80 shadow-sm space-y-4">
-        <div class="w-12 h-12 rounded-2xl bg-red-100 text-red-700 flex items-center justify-center font-bold">
-          <i data-lucide="target" class="w-6 h-6"></i>
+      <!-- Clean Brand Logo Cards Grid (2 cols on mobile, 4 on desktop) -->
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3.5 sm:gap-6 items-center">
+        
+        <!-- Happy Earth Organic -->
+        <div class="h-24 sm:h-28 p-3.5 sm:p-5 rounded-2xl border border-zinc-200/90 bg-white hover:border-emerald-600 hover:shadow-md transition flex items-center justify-center">
+          <img src="assets/logos/heo_logo.webp" alt="Happy Earth Organic Logo" class="max-h-10 sm:max-h-12 w-auto object-contain" />
         </div>
-        <h4 class="font-extrabold text-zinc-950 text-base">Paid Advertising</h4>
-        <ul class="text-xs text-zinc-600 space-y-2">
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-red-500"></span> Google Ads (Search, Display, PMax)</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-red-500"></span> Meta Ads (Facebook & IG)</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-red-500"></span> LinkedIn Campaign Manager</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-red-500"></span> Amazon PPC & Sponsored Ads</li>
-        </ul>
-      </div>
 
-      <div class="bg-white p-6 rounded-3xl border border-zinc-200/80 shadow-sm space-y-4">
-        <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
-          <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+        <!-- Réia Diamonds (Crisp Data URI Logo) -->
+        <div class="h-24 sm:h-28 p-3.5 sm:p-5 rounded-2xl border border-zinc-200/90 bg-white hover:border-amber-500 hover:shadow-md transition flex items-center justify-center">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAA/CAYAAAClz4c/AAAP5ElEQVR4nO1dB5BkRRn+ZpcDhENtC7DBQLYVBBVQkgFR0BMEM6UUIqgoYsKABFEBOQOIZaGWIhwYAAMIKJKUoBJUlHDEBkRAORoJjYQ7jrvdtb7h6712mJ19M7PMzrj9Vb17szPvve7X/ef/7z6goKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoBJq1S4r6AcY62ppzmLwo9Pdn4KCfmOOgoKCiZjDWLeWse4YY93PjHV75L8VPDUYwoBghhNCmqfPAvgogLUAXDDNfSroBxjrhnImmWmMkt7fWLe+sW7MWHd+428FMxTGuuXS2Vi3Sfb9MGaeefUrY92V6d1n0hgUNEFGCBsb664w1j1grDvdWPf0nHlmCHOsa6w71Vj3rEFhDvN/ou377gU4qDH4MX3eC8CRAL4K4DgARwPYHsA7Y/CXk1Bi8CNT3b5sfvaBn+t9qTCGY92GXjOTqbFdvueSTDBM1A7vG03j10Z7dZTQ8WD5G4zW/MtYt0XDNXsa66Kxbu/Ge/oB/daf6YKxbhVj3XMGfTz6xkzhQCYJZqw7A4AF8MIY/COSmtQUvOYEY921AM411q0Rgz801zpdtF9/hrHuXQDeC+BhSeTldUnj8/nbLEp3AH8H8OsY/Pl8h/xd2mj3lQA+BeBxtcV3Hs7aWq5JX5YCWKR7Un8Oj8HPn2hMsvY2BPAFff00AB7AwUlTTQFOArATgN0AnPJUaPsZwyANzPE7AEti8Fvqbw4sCYEYIbPE4P+qCb7MWLdyDH7/dohyAiSzJgDYUd8t0gQ/1GSsSLzrANgawEcYflXfPxiDv72D/lwP4FUAVtXfe4toV1K/htTeygCeAcAB2FBHjqsBzNf1TyLIjGnuBECmfI7+Po7M0c04Gt1rrNtMzMExfQ8ZpIVZWDDJoI77Qca6C4x1v84HfJLoljHW/cNYN7fV9e3AWLeise4GhVSvr3gPTYkLdc9txrrntdOfzBk/Q8+431i3ZsV715LZ+Xvde9pkbWeh43m6h8fbug0AmGWBlbl65lJj3YPGuufm7zlImHYNkjnkZ8nRfbP+nlCSUaNIk0RJq6uNdQtj8F/uVpXH4B8z1j2mP5c31s2WmTc8gZnFft5lrHs7gD8D2EABhTe0IYmT9ro3m5dnAljQ4JT/D4HxPWPwdwA4gYex7mMAdqf9H4N/uILp+Xj+OJ07NlVj8NTw1HBbAfiRTFVquzdqTJpqtX7GtDpQmcRhpGpNRahaMkcTJnkAwHa03411jG7VzbAuu0bTKmE0I8bRhmNEZsnyZFYA39I9OxjrdknvUqG9RPj3Z0Q6blY2tDd+ZOHU+jjG4I8B8P4k+FowR2rvH9l3acw6kvJm2XvuAIAC5pMZ0+2q/gwUc0wrgyRJL6f4MwA+LedxuaqSV0wyKwZ/K4DPA/g5M876fngKxoXnZI60Ipzk2DLLvVCfaXt3irGqkpxjljELx/RaMWsrpHfJCbZb86emM021P6oPl+u7rY11bhDNrGlhEGkIMseLARwB4EYAr+1QxSdmcoo8nSKJPtLJZEgSMqrTCRbI+SU2oj/TpsPbVSSug3euTUXb5glTjm3TnGLFA6OQxMk6M9Dwtn6wWtrFtHQ2I5qTZJZ8OEWO2lXDmhi+x6sVlfkXgO938X659K4sybPrU/9JLCnrX+vVfHQb7u4QQzrvDODuGPwNmUa9W593GUQza2ga/Y5DADwag/82gKtITMa6l7YZ/UnX1bUP4/8APkQH2Vi3bcY8vcRAmRBThDGd35G0h0xfBh1+q982NdZtqt8GRosMTZNp9XwAZJB6eJYRF0WA3t0mkaXrmKs4T8/6NwDmI76nv3sZfx9f8QfgER2DgrEuzKtRhXJ5nNbwPFoJUBJzl0ETItPFyV/WgDERlsBQ5ZsleUbasHtXB7ANgHnZz3+jT2Kse5+uHZ4Cgq8C9qUe8wdwXQx+oYRCJ8RXud0uJPJUEOqQzm8FcAu1ht45ReEuyeZ550HLqPeMQbIs68slSe4DsEL22wVZ5roKUQ9nGecbYvA30zlvCNPuZ6xbqQcTkkKkrwewSoOD2g7GGkpL6s/mWEx09EGR4ajOzJwzl0WkxCeZYWH2/UtVLTAwZtZ0JAoPBHA8gM2zaNGwBvobAPYHcGIropb2WKqk1F46cqzGkK+iJywDOaoLyZWkLPMNjb/Vw8DKhcxW7J84OwZ/epfEWw/VVqmNMtYxEfdIDP6SNuvS8us6ifjVFJrfQHmsOiNk45yef6bqzGrSNBcPipnVEwbJ7FRS2IsAHKSE0ngyjP/E4E821jHht3cM/ljlRNI1OchQS8VsPgZ/sSRSPjFjipCxRP6oNpkjn7yFLQidz0xm3k9VF3VNYtgOiihTu9SE+xrr7tDnkeyd0merOqoXKlFa17w9zlYPqa13yqR8ME/yZmPGfMh1ADYGMMdYd0AMPk/GYqZrkDSQzKjOj8HfpNDn+ERmEv5glU38NAb/UCORJfuWCUEAHwDwugnapET9nbFuBWPddjH4CysW4uV+BzXQVsY6RmNSqQl/WyLCfb5Cy3uqyPCHSnje32HRXy0bL0bmGLwYySp8029L1bcXiFEwBUzRtkSPy4TOThJET3pOKjY11v1GDLKB3u3sQfBHesIg2SBwYH6izw+rOnV+ns+IwZ9nrPuDolDvaSIRE6HMkyl2fZaVT37J2gwh6zOjY3MAXNhBdIy5jK+LQEd1DIkZnpVVwhL7xODrkbMpqCxmqcZurAqe7EJjHWu2Pp7VVY312KfclH9y+YF+anzv1J9fUHgoOMPqibN71deB8EHkL9A3+JO+Ygh03cZVeTqznogVte+PwR+vyNaSZHIZ675CCR6DP6CBAdPkGJk6KYqSyj6qEm3qx100X1jA2PAuK6qYkBKRBYIssDxGRYJHdjHx+X11/0xMP9qizORBAIdNg8Ne05nm1WUq6HySSZmZW1xPz+gilzFsb6xbNQZ/31Ss5RloBskG4NmaaBIdwVLyl+TXyuGjNnjUWMek029ZPh6Dv4imUgx+sbGOFaI8Xqbn5zZvGmiaPtdm7ZgusswpsTk+kWKYoIN9nCcz6+vGuptj8GdOgfmQCH2sVb/TbotdBiC6KWuZo5wWwaUCKaiQ95mCbbG0zJZZYeop/V7h24tQW5oEaovFWnxEXMZ6JX0el3qpGjcGf4V8DK6R2CJjDmbed2JCUESYFlql0KKTaXRTViE7mxIrv65bqIqW5gIUofmnPh9RNZfTBM0YoSVTS4v0NMxrloVot9IcfsJY90cA54gJztXnc1RuQn/jHEWwxjLNQ/St9uiViZUGgNJ2lnIfixTqO1TVt7c2SOh6NW4MPu3kwejWmXIGd47BX9VEQidJRMl0mzLqkDNLf+Q/evZYm/mIptBzktnH6M2PFZ3bSHmeUwfBCe0QNZ0ZOTsRwAGyEJqFpPMxXKx1IvW6OS4Ki8Ev6Gcz6ylnkOzFF4g5OJC3x+DvMdbdKodtbq5q8ySSwr10QvejY86QbvqtYWDT+S0kzqwLDL1G+TBVJqLdAsUkvX8uJ3QFRevYh76c9G4Rn9DyKynptzujdtlalpYw1iUGWU3m2fH9bGb1zEnnwibubaU13Ck6w8E5VAwympzwzGxiruS7AK7UlptHG+supb3PzLmuGUrb4ihLzzDiz7KmWYZC5xAdTMSkBJ6ZN/MVGHgFCUAbStzdReKu18xVeaug+MQ7by/Bc00m0Fo9o16Hpy1To/zCd4gG+na9ek/S/Vn4lUWEb9d3yyvbTMd8T9nS9aQgK3Fls36HzBODf5c0B7PvDAFz7fp3ZZ5xpV1S7cyhnK6luLM0cWQQxuC7XU7aylEe1u9pW9DV0+rILkru+xU1nd+q+ax/p3kYa3GkMD6FY7ICaGZtoOBMX2bWe1UPkyQE8wSbGeteEINPcXtmww+m9DfWHWis+4u0BsOzm8Tg58khrq80jMEfKNU+S87fWca6nRT12jAGXy/3ENMwskSNVN/ouYozK0JP1/Hcjs/yy8wO78YJ7ZhY2iS0tjVWfILQWW/G/crq5TRtaIBaNk7E7KzCty9rs3rSqSx8e7dsdW7fv7exjqXQnwCwHgAyxmaKUr0sBn8EyxGSdM60C/+mD/NBANsqr3KYElGrGutONNZx84Z99P1hVYvjMuJiEpNgOHdphfdLYearFJ0jtuOKybRPVsWh6kqKZpqsajHgknbaNsssAfoOzAXd0mYXEyNR89wzCAupesa12QAw4sGk4ZGy2U+XGcQNBE6NwdOJW5Ilvkaaxd8VSl3AnUy0cduvlBC8S5l0aqFzY/BnVM1sZ2YUJx9KBqaEXa0i8ST/h04smbQdwl+uWZFkizY5DkOq7E3l/9yJ5RD1fSKk96znh4RJBQGW3cdas6DQe2UfS4KScxFU4UBsYawbz2mhzzAdC6ZGFa5lufudLM+IwVPqMsdxnLFut8bcRhPUsr1qv6eCvV1j8GSIg6UB6MxTy3Ri5qyYEXkqoZ8MiQHPyxZK7SFzcrKVjeneNXTmeyeGIwPkR60xB6JdTkh8r9PGcXO028tESOORl8rUlx5UKC1Zmys2szxTuzSU+p/8kFmZOVqb0eXuGuBhrd2gz3C+sY5rKPZVqfab6FBrL6r6uvI8lyDiGN9p0Vj3Q5llm2s/q+fK1CKBv6adbUCz0u3VFYomVlEx4L2TbWSd5XC4cdwVqjujpvwaHdpWfcgkcGoXickmqGZOfV5NwmFrCZ1t1M9vNo7dBGBCNaG+2V0L1LIyIGQaqt0IVHrXpEGIXY11h8uk7qucSM/Xg6SiQiX7NlKZOAsO58oh53e/V8iWjLO4YbKZRFxHC5Luj8G/WBGrL2nzh9Ni8Pt2UDSYGGDHrEJ2BUVrrq1oo6fJza99C02eGPzhzfrTsF1nqkzmZg/M/9yjOUrPHBVRr6++WWm5Rtw4SR/Z3osyBxnK3fygGUOZZUult9f2SlDZuovB+w6JOm2xmqosaHp/seKO+j3DtKm0Bs2wO4DPadKP1QQfIgl+EP0IXbeyVhDup3KGE5RoJBHfxnti8Jd2U1ErIlhH60BoXv07Bn9WG/evqP7Qd1ksE2SxGHekheaiQNhM7Y4pwpMKFfNS98Qoqez+8WyNSCrV54Kt+yboX2pvU0WiFmX5oTNi8PWKgwnu3UFLih9T/y6Kwd/SCYMY67ZUsSfHhmP2gMaob5hj2m2+ZE9nkZe0s/p6Kg8hwUD2LqX4DpKgj8rBn63o1wnyY6qYFQUFldEXTlEjUav+ahM5rWSItfX5JvkDlI63axXb0oaq1qn4T2z+Z0O1dp/ZZD39pM/I/uOerlF104vG9ia7zzx5bCr/Zz0V2u950eXAQeHKoaf6noKCgdIgk0ir5LSNTZX0KigoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgowET4L4T1Ap/JviIeAAAAAElFTkSuQmCC" alt="Réia Diamonds Logo" class="max-h-8 sm:max-h-9 w-auto object-contain" />
         </div>
-        <h4 class="font-extrabold text-zinc-950 text-base">eCommerce & CRM</h4>
-        <ul class="text-xs text-zinc-600 space-y-2">
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Shopify Store & Catalog Ops</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Interakt WhatsApp Business API</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Klaviyo Automated Flows & Popups</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Amazon Seller Central Operations</li>
-        </ul>
-      </div>
 
-      <div class="bg-white p-6 rounded-3xl border border-zinc-200/80 shadow-sm space-y-4">
-        <div class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold">
-          <i data-lucide="bar-chart-3" class="w-6 h-6"></i>
+        <!-- Scuderia Car Parts -->
+        <div class="h-24 sm:h-28 p-3.5 sm:p-5 rounded-2xl border border-zinc-200/90 bg-white hover:border-red-600 hover:shadow-md transition flex items-center justify-center">
+          <img src="assets/logos/scuderia_logo.png" alt="Scuderia Car Parts Logo" class="max-h-9 sm:max-h-10 w-auto object-contain" />
         </div>
-        <h4 class="font-extrabold text-zinc-950 text-base">Analytics & Tracking</h4>
-        <ul class="text-xs text-zinc-600 space-y-2">
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Google Analytics 4 (GA4)</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Google Tag Manager (GTM) Architecture</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Looker Studio Custom BI Dashboards</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> CallRail Dynamic Call Tracking</li>
-        </ul>
-      </div>
 
-      <div class="bg-white p-6 rounded-3xl border border-zinc-200/80 shadow-sm space-y-4">
-        <div class="w-12 h-12 rounded-2xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold">
-          <i data-lucide="sparkles" class="w-6 h-6"></i>
+        <!-- Family Care Center -->
+        <div class="h-24 sm:h-28 p-3.5 sm:p-5 rounded-2xl border border-zinc-200/90 bg-white hover:border-blue-600 hover:shadow-md transition flex items-center justify-center">
+          <img src="assets/logos/fcc_logo.webp" alt="Family Care Center Logo" class="max-h-10 sm:max-h-12 w-auto object-contain" />
         </div>
-        <h4 class="font-extrabold text-zinc-950 text-base">CRO, SEO & Strategy</h4>
-        <ul class="text-xs text-zinc-600 space-y-2">
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span> Landing Page UX/UI Optimization</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span> SEMrush & Ahrefs Keyword Research</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span> Local SEO (Google My Business)</li>
-          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span> Full-Funnel A/B Test Matrices</li>
-        </ul>
-      </div>
 
+        <!-- Sunoh.AI -->
+        <div class="h-24 sm:h-28 p-3.5 sm:p-5 rounded-2xl border border-zinc-200/90 bg-white hover:border-purple-600 hover:shadow-md transition flex items-center justify-center">
+          <img src="assets/logos/sunoh_logo.webp" alt="Sunoh.AI Logo" class="max-h-9 sm:max-h-10 w-auto object-contain" />
+        </div>
+
+        <!-- Healow Genie -->
+        <div class="h-24 sm:h-28 p-3.5 sm:p-5 rounded-2xl border border-zinc-200/90 bg-white hover:border-teal-600 hover:shadow-md transition flex items-center justify-center">
+          <img src="assets/logos/genie_logo.svg" alt="Healow Genie Logo" class="max-h-9 sm:max-h-10 w-auto object-contain" />
+        </div>
+
+        <!-- Tealbox Digital -->
+        <div class="h-24 sm:h-28 p-3.5 sm:p-5 rounded-2xl border border-zinc-200/90 bg-white hover:border-brand-600 hover:shadow-md transition flex items-center justify-center">
+          <img src="assets/logos/tealbox_logo.png" alt="Tealbox Digital Logo" class="max-h-10 sm:max-h-12 w-auto object-contain" />
+        </div>
+
+        <!-- Anavrin Films -->
+        <div class="h-24 sm:h-28 p-3.5 sm:p-5 rounded-2xl border border-zinc-200/90 bg-white hover:border-amber-400 hover:shadow-md transition flex items-center justify-center">
+          <img src="assets/logos/anavrin_logo.jpg" alt="Anavrin Films Logo" class="max-h-10 sm:max-h-12 w-auto object-contain" />
+        </div>
+
+      </div>
     </div>
   </section>
 
-  <!-- Contact & Direct Action Section -->
-  <section id="contact" class="py-20 bg-zinc-950 text-white relative">
-    <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
-      <span class="text-xs font-extrabold tracking-widest text-amber-400 uppercase">Let's Connect</span>
-      <h2 class="text-3xl sm:text-5xl font-black text-white">Ready to accelerate growth & ROAS?</h2>
-      <p class="text-zinc-400 text-base max-w-xl mx-auto leading-relaxed">
-        I am currently available for Performance Marketing, eCommerce Growth, and Digital Strategy roles in Dubai and globally.
+  <!-- Core Highlights & Capabilities (Responsive Grid) -->
+  <section id="impact" class="py-12 sm:py-14 bg-zinc-950 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
+        <span class="text-[11px] sm:text-xs font-extrabold tracking-widest text-amber-400 uppercase">Proven Experience</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-white mt-1">Core Performance Highlights</h2>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3.5 sm:gap-6">
+        
+        <div class="metric-gradient p-4 sm:p-6 rounded-2xl border border-zinc-800 space-y-1.5 sm:space-y-2">
+          <div class="text-2xl sm:text-4xl lg:text-5xl font-black text-amber-400">10.4X</div>
+          <div class="text-xs sm:text-sm font-bold text-white">Peak D2C ROAS</div>
+          <p class="text-[11px] sm:text-xs text-zinc-400 leading-tight">Scaled luxury diamond jewelry revenue via Google & Meta Ads</p>
+        </div>
+
+        <div class="metric-gradient p-4 sm:p-6 rounded-2xl border border-zinc-800 space-y-1.5 sm:space-y-2">
+          <div class="text-xl sm:text-3xl lg:text-4xl font-black text-amber-400">Paid Media</div>
+          <div class="text-xs sm:text-sm font-bold text-white">Multi-Channel Buying</div>
+          <p class="text-[11px] sm:text-xs text-zinc-400 leading-tight">Google Ads (Search/PMax), Meta Ads, LinkedIn & Amazon PPC</p>
+        </div>
+
+        <div class="metric-gradient p-4 sm:p-6 rounded-2xl border border-zinc-800 space-y-1.5 sm:space-y-2">
+          <div class="text-xl sm:text-3xl lg:text-4xl font-black text-amber-400">eCommerce</div>
+          <div class="text-xs sm:text-sm font-bold text-white">Retention & Search</div>
+          <p class="text-[11px] sm:text-xs text-zinc-400 leading-tight">Shopify ops, email flows & WhatsApp Business automation</p>
+        </div>
+
+        <div class="metric-gradient p-4 sm:p-6 rounded-2xl border border-zinc-800 space-y-1.5 sm:space-y-2">
+          <div class="text-xl sm:text-3xl lg:text-4xl font-black text-amber-400">Tracking & BI</div>
+          <div class="text-xs sm:text-sm font-bold text-white">Analytics Setup</div>
+          <p class="text-[11px] sm:text-xs text-zinc-400 leading-tight">Google Analytics 4, GTM 6-tag setup & Looker Studio</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep Dive Case Studies Section (Fully Responsive) -->
+  <section id="case-studies" class="py-12 sm:py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="max-w-3xl mb-8 sm:mb-12">
+      <span class="text-[11px] sm:text-xs font-extrabold tracking-widest text-brand-600 uppercase">Strategic Growth & Execution</span>
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-zinc-950 mt-1">Featured Case Studies</h2>
+      <p class="text-zinc-600 text-xs sm:text-sm md:text-base mt-2">
+        Hands-on campaign strategies, conversion rate optimization, data infrastructure, and full-funnel marketing execution.
       </p>
+    </div>
 
-      <div class="flex flex-wrap items-center justify-center gap-4 pt-4">
-        <a href="mailto:snehadev429@gmail.com" class="px-8 py-4 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm transition shadow-lg shadow-brand-600/30 flex items-center gap-2">
-          <i data-lucide="mail" class="w-4 h-4"></i> snehadev429@gmail.com
-        </a>
-        <a href="tel:+971508153779" class="px-6 py-4 rounded-2xl border border-zinc-700 hover:border-zinc-500 bg-zinc-900 text-white font-bold text-sm transition flex items-center gap-2">
-          <i data-lucide="phone" class="w-4 h-4 text-amber-400"></i> +971 50 815 3779
-        </a>
-        <a href="Sneha_Devendrappa_CV.pdf" download="Sneha_Devendrappa_CV.pdf" class="px-6 py-4 rounded-2xl border border-amber-500/40 hover:border-amber-400 bg-amber-500/10 text-amber-300 font-bold text-sm transition flex items-center gap-2">
-          <i data-lucide="download" class="w-4 h-4"></i> Download CV (PDF)
-        </a>
+    <div class="space-y-8 sm:space-y-12">
+
+      <!-- 1. Happy Earth Organic -->
+      <div class="bg-white rounded-3xl border border-zinc-200/90 shadow-sm overflow-hidden hover:shadow-xl transition duration-300">
+        <div class="p-5 sm:p-6 md:p-8 border-b border-zinc-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-zinc-50/50">
+          <div class="flex items-center gap-3.5 sm:gap-4">
+            <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-white border border-zinc-200 p-2 sm:p-2.5 flex items-center justify-center shrink-0 shadow-sm">
+              <img src="assets/logos/heo_logo.webp" alt="Happy Earth Organic" class="max-h-full max-w-full object-contain" />
+            </div>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <h3 class="text-lg sm:text-xl md:text-2xl font-black text-zinc-950">Happy Earth Organic</h3>
+                <span class="px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-bold bg-emerald-100 text-emerald-800">Organic & D2C Wellness</span>
+              </div>
+              <p class="text-xs text-zinc-500 font-semibold mt-0.5">Digital Marketing Executive &bull; Dubai, UAE &bull; Jun 2026 – Sep 2026</p>
+            </div>
+          </div>
+          <button onclick="openModal('modal-heo')" class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-zinc-900 text-white hover:bg-brand-600 text-xs font-bold transition w-full sm:w-auto shadow-sm">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> View Details & Strategy
+          </button>
+        </div>
+
+        <div class="p-5 sm:p-6 md:p-8 space-y-5 sm:space-y-6">
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-zinc-50 border border-zinc-100">
+              <div class="text-[11px] sm:text-xs text-zinc-500 font-semibold">CRM Database</div>
+              <div class="text-lg sm:text-2xl font-black text-zinc-950 mt-1">58 Leads</div>
+              <div class="text-[10px] sm:text-[11px] text-zinc-500">within 20 days (Email)</div>
+            </div>
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-zinc-50 border border-zinc-100">
+              <div class="text-[11px] sm:text-xs text-zinc-500 font-semibold">Early Ad Pilot</div>
+              <div class="text-lg sm:text-2xl font-black text-emerald-600 mt-1">~1.67X ROAS</div>
+              <div class="text-[10px] sm:text-[11px] text-zinc-500">AED 500+ rev on initial test</div>
+            </div>
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-zinc-50 border border-zinc-100">
+              <div class="text-[11px] sm:text-xs text-zinc-500 font-semibold">WhatsApp Funnel</div>
+              <div class="text-lg sm:text-2xl font-black text-zinc-950 mt-1">10 Orders</div>
+              <div class="text-[10px] sm:text-[11px] text-zinc-500">AED 50 avg order value</div>
+            </div>
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-zinc-50 border border-zinc-100">
+              <div class="text-[11px] sm:text-xs text-zinc-500 font-semibold">Brand Identity</div>
+              <div class="text-lg sm:text-2xl font-black text-brand-600 mt-1">Full Rebrand</div>
+              <div class="text-[10px] sm:text-[11px] text-zinc-500">Visuals, SEO & Shopify setup</div>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-5 sm:gap-6 text-xs sm:text-sm text-zinc-600">
+            <div class="space-y-1.5 sm:space-y-2">
+              <h4 class="font-bold text-zinc-900 flex items-center gap-1.5"><i data-lucide="target" class="w-4 h-4 text-brand-600"></i> The Challenge & Strategy:</h4>
+              <p class="leading-relaxed">Rebuilt the digital presence for an organic wellness brand in the UAE. Designed complete brand visual identity, organized Shopify eCommerce catalog, and authored SEO, AEO, and GEO search-optimized product descriptions.</p>
+            </div>
+            <div class="space-y-1.5 sm:space-y-2">
+              <h4 class="font-bold text-zinc-900 flex items-center gap-1.5"><i data-lucide="zap" class="w-4 h-4 text-emerald-600"></i> Execution & Optimization:</h4>
+              <p class="leading-relaxed">Implemented high-converting lead capture popups and configured an automated WhatsApp sales funnel (Interakt API) to convert direct customers smoothly from paid social traffic.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Réia Diamonds -->
+      <div class="bg-white rounded-3xl border border-zinc-200/90 shadow-sm overflow-hidden hover:shadow-xl transition duration-300">
+        <div class="p-5 sm:p-6 md:p-8 border-b border-zinc-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-zinc-50/50">
+          <div class="flex items-center gap-3.5 sm:gap-4">
+            <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-white border border-zinc-200 p-2 sm:p-2.5 flex items-center justify-center shrink-0 shadow-sm">
+              <img src="data:image/png;base64,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" alt="Réia Diamonds" class="max-h-full max-w-full object-contain" />
+            </div>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <h3 class="text-lg sm:text-xl md:text-2xl font-black text-zinc-950">Réia Diamonds</h3>
+                <span class="px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-bold bg-amber-100 text-amber-900">Fine Jewelry & Luxury D2C</span>
+              </div>
+              <p class="text-xs text-zinc-500 font-semibold mt-0.5">Marketing Strategist &bull; Remote &bull; Jan 2025 – Jun 2025</p>
+            </div>
+          </div>
+          <button onclick="openModal('modal-reia')" class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-zinc-900 text-white hover:bg-brand-600 text-xs font-bold transition w-full sm:w-auto shadow-sm">
+            <i data-lucide="image" class="w-3.5 h-3.5"></i> View Ad Proofs & Metrics
+          </button>
+        </div>
+
+        <div class="p-5 sm:p-6 md:p-8 space-y-5 sm:space-y-6">
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-zinc-50 border border-zinc-100">
+              <div class="text-[11px] sm:text-xs text-zinc-500 font-semibold">Peak ROAS</div>
+              <div class="text-lg sm:text-2xl font-black text-amber-600 mt-1">10.4X ROAS</div>
+              <div class="text-[10px] sm:text-[11px] text-zinc-500">₹4.91L rev on ₹47K spend</div>
+            </div>
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-zinc-50 border border-zinc-100">
+              <div class="text-[11px] sm:text-xs text-zinc-500 font-semibold">Campaign Reach</div>
+              <div class="text-lg sm:text-2xl font-black text-zinc-950 mt-1">9.42M</div>
+              <div class="text-[10px] sm:text-[11px] text-zinc-500">Impressions (62 campaign tests)</div>
+            </div>
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-zinc-50 border border-zinc-100">
+              <div class="text-[11px] sm:text-xs text-zinc-500 font-semibold">Traffic Surge</div>
+              <div class="text-lg sm:text-2xl font-black text-brand-600 mt-1">+335%</div>
+              <div class="text-[10px] sm:text-[11px] text-zinc-500">15.2K monthly sessions</div>
+            </div>
+            <div class="p-3.5 sm:p-4 rounded-2xl bg-zinc-50 border border-zinc-100">
+              <div class="text-[11px] sm:text-xs text-zinc-500 font-semibold">Tracking Setup</div>
+              <div class="text-lg sm:text-2xl font-black text-zinc-950 mt-1">6-Tag GTM</div>
+              <div class="text-[10px] sm:text-[11px] text-zinc-500">Full GA4 & Pixel setup</div>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-5 sm:gap-6 text-xs sm:text-sm text-zinc-600">
+            <div class="space-y-1.5 sm:space-y-2">
+              <h4 class="font-bold text-zinc-900 flex items-center gap-1.5"><i data-lucide="layers" class="w-4 h-4 text-brand-600"></i> Full-Funnel Paid Acquisition:</h4>
+              <p class="leading-relaxed">Built multi-tiered Meta and Google Search campaigns testing 62 creative variants across top-of-funnel brand reels and bottom-of-funnel retargeting to capture high-intent fine jewelry buyers.</p>
+            </div>
+            <div class="space-y-1.5 sm:space-y-2">
+              <h4 class="font-bold text-zinc-900 flex items-center gap-1.5"><i data-lucide="bar-chart-3" class="w-4 h-4 text-amber-600"></i> Analytics & Creative Direction:</h4>
+              <p class="leading-relaxed">Structured complete event tracking via Google Tag Manager. Directed product video shoots and revamped landing page enquiry forms to elevate trust and conversion rates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Tealbox Digital (International Client Portfolio Showcase) -->
+      <div class="bg-white rounded-3xl border border-zinc-200/90 shadow-sm overflow-hidden hover:shadow-xl transition duration-300">
+        <div class="p-5 sm:p-6 md:p-8 border-b border-zinc-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-zinc-50/50">
+          <div class="flex items-center gap-3.5 sm:gap-4">
+            <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-white border border-zinc-200 p-2 sm:p-2.5 flex items-center justify-center shrink-0 shadow-sm">
+              <img src="assets/logos/tealbox_logo.png" alt="Tealbox Digital" class="max-h-full max-w-full object-contain" />
+            </div>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <h3 class="text-lg sm:text-xl md:text-2xl font-black text-zinc-950">Tealbox Digital &bull; Client Portfolio</h3>
+                <span class="px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-bold bg-blue-100 text-blue-800">Performance Agency</span>
+              </div>
+              <p class="text-xs text-zinc-500 font-semibold mt-0.5">Digital Marketing Executive &bull; Indore, India &bull; Sep 2024 – Jan 2025</p>
+            </div>
+          </div>
+          <button onclick="openModal('modal-tealbox')" class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-zinc-900 text-white hover:bg-brand-600 text-xs font-bold transition w-full sm:w-auto shadow-sm">
+            <i data-lucide="image" class="w-3.5 h-3.5"></i> View Client Proofs & Dashboards
+          </button>
+        </div>
+
+        <div class="p-5 sm:p-6 md:p-8 space-y-5 sm:space-y-6">
+          
+          <!-- 3 Client Feature Sub-Cards -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+            
+            <!-- Family Care Center Card -->
+            <div class="p-4 sm:p-5 rounded-2xl bg-zinc-50 border border-zinc-200/80 space-y-2.5 sm:space-y-3">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-white border border-zinc-200 p-1.5 flex items-center justify-center shrink-0">
+                  <img src="assets/logos/fcc_logo.webp" alt="FCC" class="max-h-full max-w-full object-contain" />
+                </div>
+                <div>
+                  <h4 class="font-bold text-zinc-950 text-sm">Family Care Center</h4>
+                  <p class="text-[11px] text-zinc-500">US Healthcare & Clinics</p>
+                </div>
+              </div>
+              <p class="text-xs text-zinc-600 leading-relaxed">
+                Managed high-intent Google Search campaigns for multi-state clinic locations; set up CallRail call tracking to measure patient bookings and built Looker Studio reporting dashboards.
+              </p>
+            </div>
+
+            <!-- Scuderia Car Parts Card -->
+            <div class="p-4 sm:p-5 rounded-2xl bg-zinc-50 border border-zinc-200/80 space-y-2.5 sm:space-y-3">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-white border border-zinc-200 p-1.5 flex items-center justify-center shrink-0">
+                  <img src="assets/logos/scuderia_logo.png" alt="Scuderia" class="max-h-full max-w-full object-contain" />
+                </div>
+                <div>
+                  <h4 class="font-bold text-zinc-950 text-sm">Scuderia Car Parts</h4>
+                  <p class="text-[11px] text-zinc-500">Luxury UK Automotive</p>
+                </div>
+              </div>
+              <p class="text-xs text-zinc-600 leading-relaxed">
+                Managed Google Ads search campaigns across luxury automotive marques; drove high-converting brand protection campaigns and pruned negative keywords to maximize profitability.
+              </p>
+            </div>
+
+            <!-- Sunoh.AI & Healow Genie Card -->
+            <div class="p-4 sm:p-5 rounded-2xl bg-zinc-50 border border-zinc-200/80 space-y-2.5 sm:space-y-3">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-white border border-zinc-200 p-1.5 flex items-center justify-center shrink-0">
+                  <img src="assets/logos/sunoh_logo.webp" alt="Sunoh" class="max-h-full max-w-full object-contain" />
+                </div>
+                <div>
+                  <h4 class="font-bold text-zinc-950 text-sm">Sunoh.AI & Healow Genie</h4>
+                  <p class="text-[11px] text-zinc-500">HealthTech B2B SaaS</p>
+                </div>
+              </div>
+              <p class="text-xs text-zinc-600 leading-relaxed">
+                Monitored user acquisition funnels in GA4; configured custom GTM event tracking and triggers to analyze onboarding conversion drop-offs and optimize registration flows.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="p-4 rounded-2xl bg-white border border-zinc-200 text-xs text-zinc-600 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+              <span><strong>Key Agency Deliverables:</strong> Negative keyword sculpting, CallRail phone attribution, Looker Studio automated reports & landing page CRO testing.</span>
+            </div>
+            <button onclick="openModal('modal-tealbox')" class="text-xs font-bold text-brand-600 hover:text-brand-700 underline shrink-0">
+              View Verified Screenshots &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience Timeline Section (Responsive Timeline) -->
+  <section id="experience" class="py-12 sm:py-16 bg-white border-t border-zinc-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="max-w-3xl mb-8 sm:mb-12">
+        <span class="text-[11px] sm:text-xs font-extrabold tracking-widest text-brand-600 uppercase">Work History</span>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-zinc-950 mt-1">Professional Experience</h2>
+        <p class="text-zinc-600 text-xs sm:text-sm md:text-base mt-2">
+          Hands-on track record across performance marketing agencies, luxury D2C eCommerce, and digital brands.
+        </p>
+      </div>
+
+      <div class="space-y-8 relative before:absolute before:inset-0 before:left-3.5 md:before:left-1/2 before:w-0.5 before:-ml-px before:bg-zinc-200">
+        
+        <!-- Role 1: Happy Earth Organic -->
+        <div class="relative flex flex-col md:flex-row items-start group">
+          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-emerald-600 text-white shadow-md z-10 md:absolute md:left-1/2 md:-ml-3.5 mt-1.5 shrink-0">
+            <i data-lucide="check" class="w-3.5 h-3.5"></i>
+          </div>
+          <div class="pl-10 md:pl-0 md:w-1/2 md:pr-12 md:text-right mt-1 md:mt-0">
+            <span class="text-[11px] sm:text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">Jun 2026 – Sep 2026</span>
+            <h3 class="text-base sm:text-lg font-bold text-zinc-950 mt-2">Digital Marketing Executive</h3>
+            <p class="text-xs sm:text-sm font-semibold text-zinc-600">Happy Earth Organic &bull; Dubai, UAE</p>
+          </div>
+          <div class="pl-10 md:pl-12 md:w-1/2 mt-2.5 md:mt-0">
+            <div class="bg-zinc-50 p-4 sm:p-5 rounded-2xl border border-zinc-200/80 space-y-2">
+              <p class="text-xs text-zinc-700 leading-relaxed">
+                Led complete visual brand identity & digital transformation. Designed high-converting Shopify catalog, captured <strong>58 verified leads in 20 days</strong>, and built an automated WhatsApp sales funnel (Interakt API) converting 10 customers at AED 50 AOV during an initial test (~1.67X ROAS).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 2: Réia Diamonds -->
+        <div class="relative flex flex-col md:flex-row items-start group">
+          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-amber-500 text-white shadow-md z-10 md:absolute md:left-1/2 md:-ml-3.5 mt-1.5 shrink-0">
+            <i data-lucide="gem" class="w-3.5 h-3.5"></i>
+          </div>
+          <div class="pl-10 md:pl-0 md:w-1/2 md:pr-12 md:text-right mt-1 md:mt-0">
+            <span class="text-[11px] sm:text-xs font-bold text-amber-800 bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200">Jan 2025 – Jun 2025</span>
+            <h3 class="text-base sm:text-lg font-bold text-zinc-950 mt-2">Marketing Strategist</h3>
+            <p class="text-xs sm:text-sm font-semibold text-zinc-600">Réia Diamonds &bull; Remote</p>
+          </div>
+          <div class="pl-10 md:pl-12 md:w-1/2 mt-2.5 md:mt-0">
+            <div class="bg-zinc-50 p-4 sm:p-5 rounded-2xl border border-zinc-200/80 space-y-2">
+              <p class="text-xs text-zinc-700 leading-relaxed">
+                Scaled luxury D2C fine jewelry from early traction to <strong>10.4X ROAS</strong> (₹4.91L revenue on ₹47K spend). Executed 62 campaign setups generating <strong>9.42M impressions</strong>, +335% session growth, and structured 6-tag GTM tracking architecture.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 3: Tealbox Digital -->
+        <div class="relative flex flex-col md:flex-row items-start group">
+          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-brand-600 text-white shadow-md z-10 md:absolute md:left-1/2 md:-ml-3.5 mt-1.5 shrink-0">
+            <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
+          </div>
+          <div class="pl-10 md:pl-0 md:w-1/2 md:pr-12 md:text-right mt-1 md:mt-0">
+            <span class="text-[11px] sm:text-xs font-bold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-full border border-brand-200">Sep 2024 – Jan 2025</span>
+            <h3 class="text-base sm:text-lg font-bold text-zinc-950 mt-2">Digital Marketing Executive</h3>
+            <p class="text-xs sm:text-sm font-semibold text-zinc-600">Tealbox Digital &bull; Indore, India</p>
+          </div>
+          <div class="pl-10 md:pl-12 md:w-1/2 mt-2.5 md:mt-0">
+            <div class="bg-zinc-50 p-4 sm:p-5 rounded-2xl border border-zinc-200/80 space-y-2">
+              <p class="text-xs text-zinc-700 leading-relaxed">
+                Managed Google Ads search campaigns across international client portfolios (Family Care Center, Scuderia Car Parts, Sunoh.AI). Set up CallRail call tracking, built Looker Studio dashboards, configured custom GTM events, and executed continuous negative keyword and landing page optimizations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 4: Anavrin Films -->
+        <div class="relative flex flex-col md:flex-row items-start group">
+          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-zinc-700 text-white shadow-md z-10 md:absolute md:left-1/2 md:-ml-3.5 mt-1.5 shrink-0">
+            <i data-lucide="video" class="w-3.5 h-3.5"></i>
+          </div>
+          <div class="pl-10 md:pl-0 md:w-1/2 md:pr-12 md:text-right mt-1 md:mt-0">
+            <span class="text-[11px] sm:text-xs font-bold text-zinc-700 bg-zinc-100 px-2.5 py-1 rounded-full border border-zinc-200">Mar 2024 – Sep 2024</span>
+            <h3 class="text-base sm:text-lg font-bold text-zinc-950 mt-2">Digital & Content Strategy Intern</h3>
+            <p class="text-xs sm:text-sm font-semibold text-zinc-600">Anavrin Films &bull; Bengaluru, India</p>
+          </div>
+          <div class="pl-10 md:pl-12 md:w-1/2 mt-2.5 md:mt-0">
+            <div class="bg-zinc-50 p-4 sm:p-5 rounded-2xl border border-zinc-200/80 space-y-2">
+              <p class="text-xs text-zinc-700 leading-relaxed">
+                Crafted content strategies across digital platforms, authoring cross-channel social media posts, blog content, and digital marketing materials.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-8 bg-zinc-950 border-t border-zinc-800 text-center text-xs text-zinc-500">
-    <p>© 2026 Sneha Devendrappa &bull; Performance Marketing & eCommerce Portfolio &bull; Dubai, UAE</p>
-  </footer>
-
-  <!-- ================= MODALS FOR DEEP-DIVE CASE STUDIES ================= -->
-
-  <!-- Modal 1: Happy Earth Organic -->
-  <div id="modal-heo" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
-    <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 space-y-6 shadow-2xl relative">
-      <button onclick="closeModal('modal-heo')" class="absolute top-6 right-6 w-9 h-9 rounded-full bg-zinc-100 hover:bg-zinc-200 text-zinc-700 flex items-center justify-center font-bold">
-        <i data-lucide="x" class="w-5 h-5"></i>
-      </button>
-      <div class="border-b border-zinc-100 pb-4">
-        <span class="text-xs font-extrabold text-emerald-700 uppercase tracking-wide">Case Study Deep Dive</span>
-        <h3 class="text-2xl font-black text-zinc-950 mt-1">Happy Earth Organic — E-Commerce Revamp & Retention Engine</h3>
-        <p class="text-xs text-zinc-500">Dubai, UAE &bull; June 2026 – September 2026 &bull; Sustainable D2C</p>
+  <!-- Skills Matrix & Tech Stack -->
+  <section class="py-12 sm:py-16 bg-zinc-50 border-t border-zinc-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-12">
+        <span class="text-[11px] sm:text-xs font-extrabold tracking-widest text-brand-600 uppercase">Capabilities</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-zinc-950 mt-1">Core Competencies & Tool Stack</h2>
       </div>
-      
-      <div class="space-y-4 text-xs text-zinc-700 leading-relaxed">
-        <div>
-          <h4 class="font-bold text-zinc-950 text-sm mb-1">1. The Challenge</h4>
-          <p>Happy Earth Organic needed a total modernization of its digital storefront. The previous site had high drop-off rates, fragmented product navigation, and zero direct conversational marketing channels to engage loyal repeat buyers.</p>
-        </div>
-        <div>
-          <h4 class="font-bold text-zinc-950 text-sm mb-1">2. Strategic Actions</h4>
-          <ul class="list-disc pl-4 space-y-1 text-zinc-600">
-            <li><strong>Complete UI/UX & Website Revamp:</strong> Designed conversion-friendly page hierarchies, sticky CTAs, interactive product grids, and seamless checkout navigation.</li>
-            <li><strong>Asset Creation & Copy:</strong> Authored all high-converting website copy, banners, and certified organic USP callouts.</li>
-            <li><strong>Shopify Operations:</strong> Managed inventory, new SKU additions, theme custom edits, and catalog updates.</li>
-            <li><strong>Interakt WhatsApp Business API:</strong> Integrated WhatsApp broadcast flows for order updates, restock alerts, and personalized recovery messages.</li>
-            <li><strong>Klaviyo Automation:</strong> Designed automated email workflows, newsletter campaigns, and exit-intent capture popups.</li>
-            <li><strong>Amazon PPC & Meta Ads:</strong> Deployed targeted Amazon search ads and hyper-targeted Meta ad sets on micro-budgets (AED 30).</li>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        
+        <div class="bg-white p-5 sm:p-6 rounded-2xl border border-zinc-200 shadow-sm space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-red-50 text-brand-600 flex items-center justify-center font-bold">
+            <i data-lucide="crosshair" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-extrabold text-zinc-950 text-base">Paid Media Buying</h3>
+          <ul class="text-xs text-zinc-600 space-y-2">
+            <li>&bull; Google Ads (Search, Display, PMax)</li>
+            <li>&bull; Meta Ads (Advantage+, TOFU/BOFU)</li>
+            <li>&bull; LinkedIn Campaign Manager</li>
+            <li>&bull; Amazon PPC & Sponsored Ads</li>
+            <li>&bull; A/B Creative & Landing Page Testing</li>
           </ul>
         </div>
-        <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900">
-          <strong>Key Takeaway:</strong> Built an integrated, high-retention D2C e-commerce engine uniting storefront UX, automated WhatsApp touchpoints, and first-party email acquisition.
+
+        <div class="bg-white p-5 sm:p-6 rounded-2xl border border-zinc-200 shadow-sm space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold">
+            <i data-lucide="bar-chart-2" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-extrabold text-zinc-950 text-base">Analytics & Attribution</h3>
+          <ul class="text-xs text-zinc-600 space-y-2">
+            <li>&bull; Google Analytics 4 (GA4)</li>
+            <li>&bull; Google Tag Manager (GTM 6-tag)</li>
+            <li>&bull; Looker Studio Dashboarding</li>
+            <li>&bull; CallRail Call Tracking & DNI</li>
+            <li>&bull; ROAS / POAS / CPA Reporting</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-5 sm:p-6 rounded-2xl border border-zinc-200 shadow-sm space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold">
+            <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-extrabold text-zinc-950 text-base">eCommerce & Retention</h3>
+          <ul class="text-xs text-zinc-600 space-y-2">
+            <li>&bull; Shopify Catalog & Store Ops</li>
+            <li>&bull; Email Automation & Popups</li>
+            <li>&bull; WhatsApp Business API (Interakt)</li>
+            <li>&bull; Conversion Rate Optimization (CRO)</li>
+            <li>&bull; Landing Page Copy & Visual Assets</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-5 sm:p-6 rounded-2xl border border-zinc-200 shadow-sm space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center font-bold">
+            <i data-lucide="search" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-extrabold text-zinc-950 text-base">Organic & Search (AI)</h3>
+          <ul class="text-xs text-zinc-600 space-y-2">
+            <li>&bull; Search Engine Optimization (SEO)</li>
+            <li>&bull; Answer Engine Optimization (AEO)</li>
+            <li>&bull; Generative Engine Opt (GEO)</li>
+            <li>&bull; SEMrush & Keyword Intelligence</li>
+            <li>&bull; Google Search Console & Local SEO</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Postgraduate Dissertation -->
+  <section class="py-12 sm:py-16 bg-white border-t border-zinc-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-10">
+        
+        <div class="lg:col-span-6 space-y-5 sm:space-y-6">
+          <div>
+            <span class="text-[11px] sm:text-xs font-extrabold tracking-widest text-brand-600 uppercase">Education</span>
+            <h2 class="text-2xl sm:text-3xl font-black text-zinc-950 mt-1">Academic Credentials</h2>
+          </div>
+
+          <div class="bg-zinc-50 p-5 sm:p-6 rounded-2xl border border-zinc-200 space-y-3">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
+              <div>
+                <h3 class="font-bold text-zinc-950 text-sm sm:text-base">MSc International Business Management with Marketing</h3>
+                <p class="text-xs font-semibold text-brand-600">Heriot-Watt University &bull; Dubai Campus</p>
+              </div>
+              <span class="text-[11px] font-bold bg-white border border-zinc-200 px-2.5 py-1 rounded-lg text-zinc-700 self-start sm:self-auto">Sep 2025 – Sep 2026</span>
+            </div>
+
+            <div class="pt-3 border-t border-zinc-200/80 space-y-1.5">
+              <span class="text-[10px] sm:text-[11px] font-bold text-zinc-500 uppercase tracking-wider">Postgraduate Dissertation Research:</span>
+              <p class="text-xs font-medium text-zinc-800 italic bg-white p-3 rounded-xl border border-zinc-200 leading-relaxed">
+                "Understanding the Influence of Beauty and Skincare Influencer Credibility on Consumer Purchase Intention: A Comparative Qualitative Study of India and the United Arab Emirates"
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-zinc-50 p-5 sm:p-6 rounded-2xl border border-zinc-200 space-y-2">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
+              <div>
+                <h3 class="font-bold text-zinc-950 text-sm sm:text-base">B. Tech Civil Engineering</h3>
+                <p class="text-xs font-semibold text-zinc-600">Presidency University &bull; Bengaluru, India</p>
+              </div>
+              <span class="text-[11px] font-bold bg-white border border-zinc-200 px-2.5 py-1 rounded-lg text-zinc-700 self-start sm:self-auto">2017 – 2021</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 space-y-5 sm:space-y-6">
+          <div>
+            <span class="text-[11px] sm:text-xs font-extrabold tracking-widest text-brand-600 uppercase">Accreditations</span>
+            <h2 class="text-2xl sm:text-3xl font-black text-zinc-950 mt-1">Verified Certifications</h2>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
+            
+            <div class="p-3.5 sm:p-4 rounded-2xl border border-zinc-200 bg-zinc-50 flex items-start gap-3">
+              <div class="p-2 rounded-xl bg-white border border-zinc-200 text-brand-600 shrink-0">
+                <i data-lucide="award" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-zinc-950 text-xs">Google Ads Creative Certificate</h4>
+                <p class="text-[11px] text-zinc-500">Google Skillshop</p>
+              </div>
+            </div>
+
+            <div class="p-3.5 sm:p-4 rounded-2xl border border-zinc-200 bg-zinc-50 flex items-start gap-3">
+              <div class="p-2 rounded-xl bg-white border border-zinc-200 text-blue-600 shrink-0">
+                <i data-lucide="award" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-zinc-950 text-xs">Google Analytics for Beginners</h4>
+                <p class="text-[11px] text-zinc-500">Google Analytics Academy</p>
+              </div>
+            </div>
+
+            <div class="p-3.5 sm:p-4 rounded-2xl border border-zinc-200 bg-zinc-50 flex items-start gap-3">
+              <div class="p-2 rounded-xl bg-white border border-zinc-200 text-emerald-600 shrink-0">
+                <i data-lucide="award" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-zinc-950 text-xs">Fundamentals of Digital Marketing</h4>
+                <p class="text-[11px] text-zinc-500">Google Digital Garage</p>
+              </div>
+            </div>
+
+            <div class="p-3.5 sm:p-4 rounded-2xl border border-zinc-200 bg-zinc-50 flex items-start gap-3">
+              <div class="p-2 rounded-xl bg-white border border-zinc-200 text-amber-600 shrink-0">
+                <i data-lucide="award" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-zinc-950 text-xs">Amazon Ads Foundation Certificate</h4>
+                <p class="text-[11px] text-zinc-500">Amazon Advertising</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="p-4 sm:p-5 rounded-2xl bg-zinc-950 text-white space-y-3">
+            <div class="flex items-center gap-2">
+              <i data-lucide="globe" class="w-4 h-4 text-amber-400"></i>
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Languages</span>
+            </div>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-3 py-1 rounded-lg bg-zinc-800 border border-zinc-700 font-medium">English (Fluent)</span>
+              <span class="px-3 py-1 rounded-lg bg-zinc-800 border border-zinc-700 font-medium">Hindi (Fluent)</span>
+              <span class="px-3 py-1 rounded-lg bg-zinc-800 border border-zinc-700 font-medium">Kannada (Native)</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Action Footer (Responsive) -->
+  <footer id="contact" class="py-12 sm:py-16 bg-zinc-950 text-white border-t border-zinc-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-4">
+          <span class="text-[11px] sm:text-xs font-extrabold tracking-widest text-amber-400 uppercase">Let's Connect</span>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white leading-tight">
+            Ready to scale your paid media & eCommerce revenue?
+          </h2>
+          <p class="text-zinc-400 text-xs sm:text-sm md:text-base max-w-xl leading-relaxed">
+            Currently open to full-time Growth / Performance Marketing Specialist roles in Dubai and globally remote teams.
+          </p>
+          
+          <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 sm:gap-4 pt-3 sm:pt-4">
+            <a href="mailto:snehadev429@gmail.com" class="px-6 py-3.5 rounded-xl bg-brand-600 hover:bg-brand-500 text-white font-bold text-sm transition flex items-center justify-center gap-2 shadow-lg shadow-brand-600/30">
+              <i data-lucide="mail" class="w-4 h-4"></i> Send Email
+            </a>
+            <a href="tel:+971508153779" class="px-6 py-3.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-200 font-bold text-sm transition flex items-center justify-center gap-2 border border-zinc-700">
+              <i data-lucide="phone" class="w-4 h-4"></i> +971 50 815 3779
+            </a>
+            <a href="https://linkedin.com/in/sneha-d-39b4ab1b3" target="_blank" class="px-5 py-3.5 rounded-xl bg-[#0A66C2] hover:bg-[#084e96] text-white font-bold text-sm transition flex items-center justify-center gap-2 shadow-md">
+              <svg class="w-4 h-4 fill-white" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 bg-zinc-900 p-6 sm:p-8 rounded-3xl border border-zinc-800 space-y-4">
+          <h3 class="text-base sm:text-lg font-bold text-white">Direct Coordinates</h3>
+          <div class="space-y-3 text-xs text-zinc-300">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-zinc-800 flex items-center justify-center text-brand-500 shrink-0"><i data-lucide="map-pin" class="w-4 h-4"></i></div>
+              <div><span class="block text-zinc-500 font-semibold">Location</span>Dubai, United Arab Emirates</div>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-zinc-800 flex items-center justify-center shrink-0">
+                <svg class="w-4 h-4 fill-[#0A66C2]" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              <div class="min-w-0"><span class="block text-zinc-500 font-semibold">LinkedIn</span><a href="https://linkedin.com/in/sneha-d-39b4ab1b3" target="_blank" class="hover:text-white underline truncate block">linkedin.com/in/sneha-d-39b4ab1b3</a></div>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-zinc-800 flex items-center justify-center text-emerald-400 shrink-0"><i data-lucide="mail" class="w-4 h-4"></i></div>
+              <div><span class="block text-zinc-500 font-semibold">Email</span>snehadev429@gmail.com</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-10 sm:mt-14 pt-6 sm:pt-8 border-t border-zinc-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4 text-center sm:text-left">
+        <div>&copy; 2026 Sneha Devendrappa. All rights reserved.</div>
+        <div class="flex items-center gap-6">
+          <a href="#about" class="hover:text-zinc-300 transition">Back to Top &uarr;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= MODALS (Responsive Mobile & Desktop) ================= -->
+
+  <!-- Modal 1: Happy Earth Organic -->
+  <div id="modal-heo" class="fixed inset-0 z-50 hidden modal-backdrop items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[92vh] flex flex-col shadow-2xl border border-zinc-300 overflow-hidden my-auto">
+      <div class="p-4 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50">
+        <div class="flex items-center gap-2.5 sm:gap-3 min-w-0">
+          <img src="assets/logos/heo_logo.webp" alt="HEO" class="h-6 sm:h-8 w-auto object-contain shrink-0" />
+          <h3 class="text-base sm:text-xl font-bold text-zinc-950 truncate">Happy Earth Organic &bull; Strategy</h3>
+        </div>
+        <button onclick="closeModal('modal-heo')" class="p-2 rounded-xl text-zinc-500 hover:text-zinc-950 hover:bg-zinc-200 transition shrink-0" aria-label="Close modal">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div class="p-5 sm:p-8 overflow-y-auto space-y-4 sm:space-y-6 text-xs sm:text-sm text-zinc-700">
+        <div class="space-y-3">
+          <h4 class="font-black text-zinc-950 text-sm sm:text-base">Key Achievements & Initiatives</h4>
+          <ul class="list-disc pl-5 space-y-2">
+            <li><strong>Brand Rebrand & Visual Identity</strong>: Overhauled brand aesthetic, typography, and color systems for modern UAE organic consumers.</li>
+            <li><strong>eCommerce Catalog & SEO</strong>: Built and structured the Shopify storefront, authoring SEO, AEO, and GEO search-optimized product descriptions.</li>
+            <li><strong>Lead Generation & CRM</strong>: Designed and deployed on-site capture popups, acquiring <strong>58 verified leads in 20 days</strong>.</li>
+            <li><strong>WhatsApp Conversion Engine</strong>: Configured Interakt WhatsApp API workflows to capture direct orders, driving 10 orders with AED 50+ AOV during a 10-day test at AED 30/day (~1.67X ROAS).</li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Modal 2: Réia Diamonds -->
-  <div id="modal-reia" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
-    <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 space-y-6 shadow-2xl relative">
-      <button onclick="closeModal('modal-reia')" class="absolute top-6 right-6 w-9 h-9 rounded-full bg-zinc-100 hover:bg-zinc-200 text-zinc-700 flex items-center justify-center font-bold">
-        <i data-lucide="x" class="w-5 h-5"></i>
-      </button>
-      <div class="border-b border-zinc-100 pb-4">
-        <span class="text-xs font-extrabold text-amber-800 uppercase tracking-wide">Case Study Deep Dive</span>
-        <h3 class="text-2xl font-black text-zinc-950 mt-1">Réia Diamonds — 10.4X ROAS & Traffic Explosion</h3>
-        <p class="text-xs text-zinc-500">Bangalore, India &bull; Jan 2025 – Jun 2025 &bull; Luxury Lab-Grown Diamonds</p>
-      </div>
-      
-      <div class="space-y-4 text-xs text-zinc-700 leading-relaxed">
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <div class="p-3 rounded-xl bg-amber-50 text-center">
-            <div class="text-xl font-black text-amber-900">10.4X</div>
-            <div class="text-[10px] font-bold text-amber-700">ROAS on Revenue</div>
-          </div>
-          <div class="p-3 rounded-xl bg-amber-50 text-center">
-            <div class="text-xl font-black text-amber-900">₹4.91L</div>
-            <div class="text-[10px] font-bold text-amber-700">Revenue (₹47K spend)</div>
-          </div>
-          <div class="p-3 rounded-xl bg-amber-50 text-center">
-            <div class="text-xl font-black text-amber-900">+335%</div>
-            <div class="text-[10px] font-bold text-amber-700">MoM Sessions</div>
-          </div>
-          <div class="p-3 rounded-xl bg-amber-50 text-center">
-            <div class="text-xl font-black text-amber-900">9.42M</div>
-            <div class="text-[10px] font-bold text-amber-700">Meta Impressions</div>
-          </div>
+  <div id="modal-reia" class="fixed inset-0 z-50 hidden modal-backdrop items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[92vh] flex flex-col shadow-2xl border border-zinc-300 overflow-hidden my-auto">
+      <div class="p-4 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50">
+        <div class="flex items-center gap-2.5 sm:gap-3 min-w-0">
+          <div class="p-1 rounded-lg bg-white border border-zinc-200 shrink-0"><img src="data:image/png;base64,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" alt="Réia" class="h-5 sm:h-6 w-auto object-contain" /></div>
+          <h3 class="text-base sm:text-xl font-bold text-zinc-950 truncate">Réia Diamonds &bull; Live Ad Proofs</h3>
         </div>
-
-        <div>
-          <h4 class="font-bold text-zinc-950 text-sm mb-1">Execution Highlights</h4>
-          <ul class="list-disc pl-4 space-y-1 text-zinc-600">
-            <li>Constructed 62 active Meta campaigns structured across TOFU awareness, MOFU engagement, and BOFU high-intent retargeting.</li>
-            <li>Built custom 6-tag GTM tracking architecture (Meta Pixel, Google Ads conversions, WhatsApp click tracking).</li>
-            <li>Established and verified 4 Google My Business locations across Bangalore, Coimbatore, Guwahati, and Chennai.</li>
-            <li>Directed high-end product shoots boosting social engagement by 30%+.</li>
-          </ul>
+        <button onclick="closeModal('modal-reia')" class="p-2 rounded-xl text-zinc-500 hover:text-zinc-950 hover:bg-zinc-200 transition shrink-0" aria-label="Close modal">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div class="p-5 sm:p-8 overflow-y-auto space-y-4 sm:space-y-6 text-xs sm:text-sm text-zinc-700">
+        <div class="space-y-4">
+          <h4 class="font-black text-zinc-950 text-sm sm:text-base">Verified Meta & Google Dashboard Proofs</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="rounded-2xl border border-zinc-200 overflow-hidden bg-zinc-50 p-2">
+              <img src="assets/proofs/14 Reia Campaigns.png" alt="Réia Campaign Proof" class="rounded-xl w-full object-cover shadow-sm" />
+              <p class="text-[11px] text-zinc-500 mt-2 text-center font-medium">Meta Ads Manager Campaign Setup & Iterations</p>
+            </div>
+            <div class="rounded-2xl border border-zinc-200 overflow-hidden bg-zinc-50 p-2">
+              <img src="assets/proofs/14.2 Reia Cmapigns.png" alt="Réia Campaign Performance" class="rounded-xl w-full object-cover shadow-sm" />
+              <p class="text-[11px] text-zinc-500 mt-2 text-center font-medium">10.4X ROAS & Revenue Telemetry</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Modal 3: Family Care Center -->
-  <div id="modal-fcc" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
-    <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 space-y-6 shadow-2xl relative">
-      <button onclick="closeModal('modal-fcc')" class="absolute top-6 right-6 w-9 h-9 rounded-full bg-zinc-100 hover:bg-zinc-200 text-zinc-700 flex items-center justify-center font-bold">
-        <i data-lucide="x" class="w-5 h-5"></i>
-      </button>
-      <div class="border-b border-zinc-100 pb-4">
-        <span class="text-xs font-extrabold text-blue-800 uppercase tracking-wide">Case Study Deep Dive</span>
-        <h3 class="text-2xl font-black text-zinc-950 mt-1">Family Care Center —  Managed Search & CallRail Engine</h3>
-        <p class="text-xs text-zinc-500">US Healthcare & Mental Health Clinics &bull; 10,646 Conversions</p>
+  <!-- Modal 3: Tealbox Digital Agency Clients -->
+  <div id="modal-tealbox" class="fixed inset-0 z-50 hidden modal-backdrop items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[92vh] flex flex-col shadow-2xl border border-zinc-300 overflow-hidden my-auto">
+      <div class="p-4 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50">
+        <div class="flex items-center gap-2.5 sm:gap-3 min-w-0">
+          <img src="assets/logos/tealbox_logo.png" alt="Tealbox Digital" class="h-6 sm:h-8 w-auto object-contain shrink-0" />
+          <h3 class="text-base sm:text-xl font-bold text-zinc-950 truncate">Tealbox Digital &bull; Client Work</h3>
+        </div>
+        <button onclick="closeModal('modal-tealbox')" class="p-2 rounded-xl text-zinc-500 hover:text-zinc-950 hover:bg-zinc-200 transition shrink-0" aria-label="Close modal">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
       </div>
-      
-      <div class="space-y-4 text-xs text-zinc-700 leading-relaxed">
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <div class="p-3 rounded-xl bg-blue-50 text-center">
-            <div class="text-xl font-black text-blue-900"></div>
-            <div class="text-[10px] font-bold text-blue-700">Total Spend</div>
+      <div class="p-5 sm:p-8 overflow-y-auto space-y-5 sm:space-y-6 text-xs sm:text-sm text-zinc-700">
+        
+        <!-- FCC proofs -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-2">
+            <img src="assets/logos/fcc_logo.webp" alt="FCC" class="h-5 w-auto object-contain shrink-0" />
+            <h4 class="font-black text-zinc-950 text-xs sm:text-sm">Family Care Center (Google Ads & CallRail)</h4>
           </div>
-          <div class="p-3 rounded-xl bg-blue-50 text-center">
-            <div class="text-xl font-black text-blue-900">10,646</div>
-            <div class="text-[10px] font-bold text-blue-700">Conversions</div>
-          </div>
-          <div class="p-3 rounded-xl bg-blue-50 text-center">
-            <div class="text-xl font-black text-blue-900">12.05%</div>
-            <div class="text-[10px] font-bold text-blue-700">Conversion Rate</div>
-          </div>
-          <div class="p-3 rounded-xl bg-blue-50 text-center">
-            <div class="text-xl font-black text-blue-900">.48</div>
-            <div class="text-[10px] font-bold text-blue-700">Cost Per Conv</div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="rounded-2xl border border-zinc-200 overflow-hidden bg-zinc-50 p-2">
+              <img src="assets/proofs/1 FCC.png" alt="FCC Campaign Data" class="rounded-xl w-full object-cover shadow-sm" />
+              <p class="text-[11px] text-zinc-500 mt-2 text-center font-medium">Google Ads Multi-State Campaign Structure</p>
+            </div>
+            <div class="rounded-2xl border border-zinc-200 overflow-hidden bg-zinc-50 p-2">
+              <img src="assets/proofs/8 Call Rail.png" alt="CallRail Telemetry" class="rounded-xl w-full object-cover shadow-sm" />
+              <p class="text-[11px] text-zinc-500 mt-2 text-center font-medium">CallRail Dynamic Inbound Call Attribution</p>
+            </div>
           </div>
         </div>
 
-        <div>
-          <h4 class="font-bold text-zinc-950 text-sm mb-1">Architecture & Analytics</h4>
-          <ul class="list-disc pl-4 space-y-1 text-zinc-600">
-            <li>Managed 120 Google Ads campaigns targeting Arizona, Colorado, Florida, and Texas.</li>
-            <li>Built Looker Studio BI reports tracking CallRail analytics (1,373 weekly calls, 720 first-time callers).</li>
-            <li>Integrated SEMrush organic strategy, expanding SEO traffic to 28,400 monthly visits (+3.35%).</li>
-          </ul>
+        <!-- Scuderia proofs -->
+        <div class="space-y-3 pt-4 border-t border-zinc-200">
+          <div class="flex items-center gap-2">
+            <img src="assets/logos/scuderia_logo.png" alt="Scuderia" class="h-5 w-auto object-contain shrink-0" />
+            <h4 class="font-black text-zinc-950 text-xs sm:text-sm">Scuderia Car Parts (Looker Studio & Brand Search)</h4>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="rounded-2xl border border-zinc-200 overflow-hidden bg-zinc-50 p-2">
+              <img src="assets/proofs/15.3 SCuderia  report - CPC, CTR, REVENUE.png" alt="Scuderia Report" class="rounded-xl w-full object-cover shadow-sm" />
+              <p class="text-[11px] text-zinc-500 mt-2 text-center font-medium">Search Performance & Revenue Dashboard</p>
+            </div>
+            <div class="rounded-2xl border border-zinc-200 overflow-hidden bg-zinc-50 p-2">
+              <img src="assets/proofs/3 LOOKER.png" alt="Looker Studio BI" class="rounded-xl w-full object-cover shadow-sm" />
+              <p class="text-[11px] text-zinc-500 mt-2 text-center font-medium">Automated Looker Studio Performance Aggregator</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Modal 4: Scuderia Car Parts -->
-  <div id="modal-scp" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
-    <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 space-y-6 shadow-2xl relative">
-      <button onclick="closeModal('modal-scp')" class="absolute top-6 right-6 w-9 h-9 rounded-full bg-zinc-100 hover:bg-zinc-200 text-zinc-700 flex items-center justify-center font-bold">
-        <i data-lucide="x" class="w-5 h-5"></i>
-      </button>
-      <div class="border-b border-zinc-100 pb-4">
-        <span class="text-xs font-extrabold text-zinc-900 uppercase tracking-wide">Case Study Deep Dive</span>
-        <h3 class="text-2xl font-black text-zinc-950 mt-1">Scuderia Car Parts — £156.3K Luxury eCommerce Value</h3>
-        <p class="text-xs text-zinc-500">UK & Worldwide &bull; Ferrari, Maserati, Bentley, Lamborghini</p>
-      </div>
-      
-      <div class="space-y-4 text-xs text-zinc-700 leading-relaxed">
-        <p>Managed £64.8K Google Ads budget generating £156,316 in conversion value across 2,754 conversions with an 8.79% average CTR. Achieved £105.7K revenue on brand protection campaigns at an exceptional 55.64% CTR.</p>
-      </div>
-    </div>
-  </div>
+        <!-- Sunoh & GTM proofs -->
+        <div class="space-y-3 pt-4 border-t border-zinc-200">
+          <div class="flex items-center gap-2">
+            <img src="assets/logos/sunoh_logo.webp" alt="Sunoh" class="h-5 w-auto object-contain shrink-0" />
+            <h4 class="font-black text-zinc-950 text-xs sm:text-sm">Sunoh.AI & Healow Genie (GA4 & GTM Event Architecture)</h4>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="rounded-2xl border border-zinc-200 overflow-hidden bg-zinc-50 p-2">
+              <img src="assets/proofs/15 SNoh GA4  User Spike.png" alt="Sunoh GA4 Spike" class="rounded-xl w-full object-cover shadow-sm" />
+              <p class="text-[11px] text-zinc-500 mt-2 text-center font-medium">GA4 Active User Acquisition Telemetry</p>
+            </div>
+            <div class="rounded-2xl border border-zinc-200 overflow-hidden bg-zinc-50 p-2">
+              <img src="assets/proofs/5 GTM.png" alt="GTM Tracking" class="rounded-xl w-full object-cover shadow-sm" />
+              <p class="text-[11px] text-zinc-500 mt-2 text-center font-medium">Google Tag Manager Custom Event Triggers</p>
+            </div>
+          </div>
+        </div>
 
-  <!-- Modal 5: Sunoh & Healow -->
-  <div id="modal-saas" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4">
-    <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 space-y-6 shadow-2xl relative">
-      <button onclick="closeModal('modal-saas')" class="absolute top-6 right-6 w-9 h-9 rounded-full bg-zinc-100 hover:bg-zinc-200 text-zinc-700 flex items-center justify-center font-bold">
-        <i data-lucide="x" class="w-5 h-5"></i>
-      </button>
-      <div class="border-b border-zinc-100 pb-4">
-        <span class="text-xs font-extrabold text-purple-900 uppercase tracking-wide">Case Study Deep Dive</span>
-        <h3 class="text-2xl font-black text-zinc-950 mt-1">Sunoh.AI & Healow Genie — B2B Health-Tech Analytics</h3>
-        <p class="text-xs text-zinc-500">AI Medical Scribe & Telehealth &bull; GA4 & GTM Event Architecture</p>
-      </div>
-      
-      <div class="space-y-4 text-xs text-zinc-700 leading-relaxed">
-        <p>Monitored 39,000 active users for Sunoh.AI, detected a +554.2% anomaly spike driven by display and organic search synergy, and implemented full-funnel custom GA4 event tracking for Healow Genie logging 13K+ events (+18.4% growth).</p>
       </div>
     </div>
   </div>
@@ -715,28 +977,29 @@
   <script>
     lucide.createIcons();
 
-    function filterProjects(category) {
-      document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.classList.remove('bg-zinc-900', 'text-white');
-        btn.classList.add('bg-white', 'text-zinc-700');
-      });
-      event.target.classList.remove('bg-white', 'text-zinc-700');
-      event.target.classList.add('bg-zinc-900', 'text-white');
-
-      const cards = document.querySelectorAll('.project-card');
-      cards.forEach(card => {
-        if (category === 'all' || card.getAttribute('data-category').includes(category)) {
-          card.style.display = 'flex';
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const openIcon = document.getElementById('menu-icon-open');
+      const closeIcon = document.getElementById('menu-icon-close');
+      if (menu) {
+        const isHidden = menu.classList.contains('hidden');
+        if (isHidden) {
+          menu.classList.remove('hidden');
+          openIcon.classList.add('hidden');
+          closeIcon.classList.remove('hidden');
         } else {
-          card.style.display = 'none';
+          menu.classList.add('hidden');
+          openIcon.classList.remove('hidden');
+          closeIcon.classList.add('hidden');
         }
-      });
+      }
     }
 
     function openModal(id) {
       const modal = document.getElementById(id);
       if (modal) {
         modal.classList.remove('hidden');
+        modal.classList.add('flex');
         document.body.style.overflow = 'hidden';
       }
     }
@@ -744,17 +1007,19 @@
     function closeModal(id) {
       const modal = document.getElementById(id);
       if (modal) {
+        modal.classList.remove('flex');
         modal.classList.add('hidden');
         document.body.style.overflow = 'auto';
       }
     }
 
-    window.onclick = function(event) {
-      if (event.target.classList.contains('modal-backdrop')) {
-        event.target.classList.add('hidden');
+    window.addEventListener('click', function(e) {
+      if (e.target.classList.contains('modal-backdrop')) {
+        e.target.classList.remove('flex');
+        e.target.classList.add('hidden');
         document.body.style.overflow = 'auto';
       }
-    }
+    });
   </script>
 </body>
 </html>
